@@ -1,0 +1,224 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.top-header{
+    background-color: #0071DC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 11px;
+}
+.select-bar{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    background-color: #004F9A;
+    padding: 6px 18px;
+    border-radius: 32px;
+    color: white;
+}
+.top-header .select-bar img{
+    height: 30px;
+    width: auto;
+}
+.top-header .select-bar:hover{
+    background-color: #05315a;
+    cursor: pointer;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 7px 18px;
+    border-radius: 32px;
+}
+.top-header .search-bar input{
+    border: none;
+    width: 700px;
+    padding: 5px;
+}
+.top-header .search-bar input::placeholder{
+    color: #024b8f;
+    opacity: 1;
+    font-size: 13px;
+}
+.top-header .search-bar input:focus-visible{
+    border: none;
+    outline: none;
+}
+.item-bar{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 6px 18px;
+    border-radius: 32px;
+}
+.item-bar div{
+    padding-left: 8px;
+}
+.item-bar:hover{
+    background-color: #05315a;
+    cursor: pointer;
+}
+.sign-bar{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 6px 18px;
+    border-radius: 32px;
+}
+.sign-bar div{
+    padding-left: 8px;
+}
+.sign-bar:hover{
+    background-color: #05315a;
+    cursor: pointer;
+}
+.cart-bar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 6px 18px;
+    border-radius: 32px;
+}
+.cart-bar:hover{
+    background-color: #05315a;
+    cursor: pointer;
+}
+
+.address-cart{
+    position: fixed;
+    width: 335px;
+    height: auto;
+    left: 3.5%;
+    top: 10.3%;
+    z-index: 100;
+    background-color: #0071DC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0 0 12px 12px;
+    gap: 10px;
+}
+.about-shipping{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.about-shipping div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+.about-shipping div img{
+    width: 45px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.about-address{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 15px;
+    gap: 10px;
+}
+.vehicles{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+.add-it{
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0071DC;
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+.about-home{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 15px;
+    gap: 10px;
+}
+
+.address-item{
+    position: fixed;
+    left: 72%;
+    z-index: 100;
+}
+
+.address-account{
+    position: fixed;
+    left: 85%;
+    z-index: 100;
+}
+
+
+.bottom-header{
+    background-color: #F2F8FD;
+    display: flex;
+    padding: 15px 23px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.first-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 18px;
+}
+.first-name div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+.first-name .first1:hover{
+    border-radius: 35px;
+    border: 1px solid rgb(19, 3, 89);
+    cursor: pointer;
+}
+.first-name .first2:hover{
+    border-radius: 35px;
+    border: 1px solid rgb(19, 3, 89);
+    cursor: pointer;
+}
+.second-name ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    list-style: none;
+    font-size: 14px;
+    gap: 16px;
+}
+.second-name ul li a{
+    text-decoration: none;
+    color: rgb(106, 106, 106);
+}
+.second-name ul li a:hover{
+    color: rgb(54, 54, 54);
+    text-decoration: underline;
+}
