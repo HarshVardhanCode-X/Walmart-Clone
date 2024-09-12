@@ -10,6 +10,9 @@ import { IoHomeOutline } from "react-icons/io5";
 import { MdArrowForwardIos } from "react-icons/md";
 import { RxDashboard } from "react-icons/rx";
 import { BsChevronDown } from "react-icons/bs";
+import { PiDownloadSimpleLight } from "react-icons/pi";
+import { PiGiftLight } from "react-icons/pi";
+import { CgNotes } from "react-icons/cg";
 
 
 import './Header.css'
@@ -140,11 +143,26 @@ function Header() {
         </div>}
 
         {showitem && <div className='address-item'>
-          <h1>Hello item!</h1>
+          <div>
+            <ul>
+              <li><a href='#'><PiDownloadSimpleLight/> Reorder</a></li>
+              <li><a href='#'><GoHeart/> Lists</a></li>
+              <li><a href='#'><PiGiftLight/> Registries</a></li>
+            </ul>
+          </div>
         </div>}
 
         {showaccount && <div className='address-account'>
-          <h1>Hello account!</h1>
+          <div className='create-acc'><h5>Sign in or create account</h5></div>
+          <hr/>
+          <div className='history'>
+            <div><CgNotes/></div>
+            <div>Purchase History</div>
+          </div>
+          <div className='site'>
+            <div><TbBrandWalmart/></div>
+            <div>Walmart+</div>
+          </div>
         </div>}
 
     </React.Fragment>
