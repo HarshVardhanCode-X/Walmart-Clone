@@ -198,12 +198,12 @@
 }
 .first-name .first1:hover{
     border-radius: 35px;
-    border: 1px solid rgb(19, 3, 89);
+    background-color: #9bbddd;
     cursor: pointer;
 }
 .first-name .first2:hover{
     border-radius: 35px;
-    border: 1px solid rgb(19, 3, 89);
+    background-color: #9bbddd;
     cursor: pointer;
 }
 .second-name ul{
@@ -221,4 +221,18 @@
 .second-name ul li a:hover{
     color: rgb(54, 54, 54);
     text-decoration: underline;
+}
+
+
+
+/* Media Query */
+
+@media all and (max-width: 600px) {
+
+}
+@media (min-width: 601px) and (max-width: 1200px) {
+    
+}
+@media (min-width: 1201px) {
+
 }
