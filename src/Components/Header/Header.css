@@ -3,10 +3,16 @@
     margin: 0%;
     box-sizing: border-box;
 }
+.mainheader{
+    width: 100%;
+    height: auto;
+}
 
 .top-header {
     background-color: #0071DC;
     display: flex;
+    width: 100%;
+    height: auto;
     justify-content: space-around;
     align-items: center;
     padding: 11px;
@@ -105,8 +111,9 @@
     cursor: pointer;
 }
 
+
 .address-cart {
-    position: fixed;
+    position: absolute;
     width: 335px;
     height: auto;
     left: 3.5%;
@@ -184,8 +191,30 @@
     gap: 10px;
 }
 
+.outer-address{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.out-item{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.oute-account{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 .address-item {
-    position: fixed;
+    position: absolute;
     left: 76.4%;
     z-index: 100;
     width: auto;
@@ -215,7 +244,7 @@
 }
 
 .address-account {
-    position: fixed;
+    position: absolute;
     left: 81%;
     z-index: 100;
     width: 250px;
