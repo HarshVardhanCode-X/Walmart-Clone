@@ -342,8 +342,4 @@
 
 /* Media Query */
 
-@media all and (max-width: 600px) {}
 
-@media (min-width: 601px) and (max-width: 1200px) {}
-
-@media (min-width: 1201px) {}

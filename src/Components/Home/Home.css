@@ -38,8 +38,8 @@ main{
     justify-content: space-between;
 }
 .second div{
-    padding: 8px;
-    margin: -4px 0;
+    /* padding: 8px; */
+    /* margin: -4px 0; */
 }
 .insider-second {
     display: flex;
@@ -53,22 +53,142 @@ main{
     justify-content: space-between;
 }
 .third div{
-    padding: 8px;
+    /* padding: 8px; */
 }
 
 a{
     text-decoration: none;
     color: black;
 }
-.first{
+
+.goat{
+    padding: 5px;
+}
+.goat .goat-position{
     position: relative;
 }
-.first .goat{
-    position: relative;
-    z-index: 1;
-    left: -17%;
-    padding-top: 20px;
-}
-.first .goat1{
+.goat-text{
     position: absolute;
+    left: 7%;
+    top: 13%;
+}
+
+.baby-girl{
+    padding: 5px;
+}
+.baby-girl .baby-girl-position{
+    position: relative;
+}
+.baby-girl-text{
+    position: absolute;
+    left: 7%;
+    top: 8%;
+}
+
+.dino{
+    padding: 5px;
+}
+.dino .dino-position{
+    position: relative;
+}
+.dino-text{
+    position: absolute;
+    left: 7%;
+    top: 10%;
+}
+
+.iphone{
+    padding: 5px;
+}
+.iphone .iphone-position{
+    position: relative;
+}
+.iphone-text{
+    position: absolute;
+    left: 3%;
+    top: 8%;
+    color: white;
+}
+
+.watch{
+    padding: 5px;
+}
+.watch .watch-position{
+    position: relative;
+}
+.watch-text{
+    position: absolute;
+    left: 7%;
+    top: 8%;
+}
+
+.toycar{
+    padding: 5px;
+}
+.toycar .toycar-position{
+    position: relative;
+}
+.toycar-text{
+    position: absolute;
+    left: 7%;
+    top: 8%;
+}
+
+.walmart-banner{
+    padding: 5px;
+}
+.walmart-banner .walmart-banner-position{
+    position: relative;
+}
+.walmart-banner-text{
+    position: absolute;
+    left: 3%;
+    top: 8%;
+}
+
+.lady{
+    padding: 5px;
+}
+.lady .lady-position{
+    position: relative;
+}
+.lady-text{
+    position: absolute;
+    left: 7%;
+    top: 8%;
+}
+
+.luxe{
+    padding: 5px;
+}
+.luxe .luxe-position{
+    position: relative;
+}
+.luxe-text{
+    position: absolute;
+    left: 7%;
+    top: 8%;
+}
+
+.jordan{
+    padding: 5px;
+}
+.jordan .jordan-position{
+    position: relative;
+}
+.jordan-text{
+    position: absolute;
+    left: 7%;
+    top: 5%;
+}
+
+@media (min-width: 1920px) {
+    .main-body {
+        display: flex;
+        width: 87%;
+        height: auto;
+        align-items: center;
+        justify-content: space-between;
+        padding: 18px;
+    }
 }

@@ -9,93 +9,137 @@ function Home() {
         <section className='main-body'>
           <div className='first'>
             <div className='goat'>
+              <div className='goat-position'>
               <a href='#'>
-              <h2>The Top Toy List<br/>is here</h2>
-              <p>Shop now</p>
-              </a>
-            </div>
-            <div className='goat1'>
+              <div className='goat-text'>
+                <h2>The Top Toy List<br/>is here</h2>
+                <p>Shop now</p>
+              </div>
               <img src='./images/goat.jpg' alt='cash-hand'></img>
-            </div>
-
-            <div className='chotibacchi'>
-              <a href='#'>
-              <h2>Only at Walmart-<br/>woohoo!</h2>
-              <p>Shop toys</p>
               </a>
               </div>
-              <div className='chotibacchi1'>
-              <img src='./images/chotibacchi.jpg' alt='cash-hand'></img>
             </div>
 
-            <div className='dino'>
-            <a href='#'>
-              <h2>Big fun for ages 5-7</h2>
-              <p>Shop now</p>
+            <div className='baby-girl'>
+              <div className='baby-girl-position'>
+              <a href='#'>
+              <div className='baby-girl-text'>
+                <h2>Only at Walmart-<br/>woohoo!</h2>
+                <p>Shop toys</p>
+              </div>
+              <img src='./images/chotibacchi.jpg' alt='cash-hand'></img>
               </a>
+              </div>
+            </div>
+
+          <div className='dino'>
+              <div className='dino-position'>
+              <a href='#'>
+              <div className='dino-text'>
+                <h2>Big fun for ages 5-7</h2>
+                <p>Shop now</p>
+              </div>
               <img src='./images/dino.jpg' alt='cash-hand'></img>
+              </a>
+              </div>
             </div>
           </div>
 
           <div className='second'>
-          <div className='makeup'>
+          
+            <div className='iphone'>
+              <div className='iphone-position'>
               <a href='#'>
-              <p>Just in: premium beauty</p>
-              <h2>Pamper yourself</h2>
-              <p>Shop now</p>
+              <div className='iphone-text'>
+                <p>Save upto $1,100</p>
+                <h2>Profoundly<br/>Powerful.</h2>
+                <p>Shop now</p>
+              </div>
+              <img src='./images/iphone.jpg' alt='cash-hand'></img>
               </a>
-              <img src='./images/makeup.jpg' alt='cash-hand'></img>
+              </div>
             </div>
+
 
             <div className='insider-second'>
             <div className='watch'>
+              <div className='watch-position'>
               <a href='#'>
-              <h2>Thinstant classic</h2>
-              <p>Preorder now</p>
-              </a>
+              <div className='watch-text'>
+                <h2>Thinstant classic</h2>
+                <p>Preorder now</p>
+              </div>
               <img src='./images/watch.jpg' alt='cash-hand'></img>
+              </a>
+              </div>
             </div>
             <div className='toycar'>
+              <div className='toycar-position'>
               <a href='#'>
-              <h2>Toys & more up<br/>to 40% off</h2>
-              <p>shop now</p>
+              <div className='toycar-text'>
+                <h2>Upto 40% off</h2>
+                <p>shop now</p>
+              </div>
+              <img src='./images/bag.jpg' alt='cash-hand'></img>
               </a>
-              <img src='./images/toycar.jpg' alt='cash-hand'></img>
-            </div>
-            </div>
-
-            <div className='walmart+'>
-              <a href='#'>
-              <p>Walmart+ members save big with<br/>free delivery from stores</p>
-              <p>Terms apply</p>
-              <p>Join walmart+</p>
-              </a>
-              <img src='./images/walmart.webp' alt='cash-hand'></img>
+              </div>
             </div>
           </div>
 
+            <div className='walmart-banner'>
+              <div className='walmart-banner-position'>
+              <a href='#'>
+              <div className='walmart-banner-text'>
+                <p>Walmart+ members save big with<br/>free delivery from stores</p>
+                <p>Terms apply.</p>
+                <p>Join Walmart+</p>
+              </div>
+              <img src='./images/walmart.webp' alt='cash-hand'></img>
+              </a>
+              </div>
+            </div>
+
+          </div>
+
+
           <div className='third'>
-            <div className='nigga'>
+
+            <div className='lady'>
+              <div className='lady-position'>
               <a href='#'>
-              <h2>Most-wanted for ages 12+</h2>
-              <p>shop now</p>
+              <div className='lady-text'>
+                <h2>Ree's fashion<br/>refresh</h2>
+                <p>shop now</p>
+              </div>
+              <img src='./images/lady.jpg' alt='cash-hand'></img>
               </a>
-              <img src='./images/nigga.jpg' alt='cash-hand'></img>
+              </div>
             </div>
-            <div className='block'>
+
+            <div className='luxe'>
+              <div className='luxe-position'>
               <a href='#'>
-              <h2>Play & grow for ages 1-2</h2>
-              <p>shop now</p>
+              <div className='luxe-text'>
+                <h2>Latest luxe<br/>beauty lineup</h2>
+                <p>shop now</p>
+              </div>
+              <img src='./images/luxe.jpg' alt='cash-hand'></img>
               </a>
-              <img src='./images/block.jpg' alt='cash-hand'></img>
+              </div>
             </div>
-            <div className='notnigga'>
+
+            <div className='jordan'>
+              <div className='jordan-position'>
               <a href='#'>
-              <h2>All smiles for ages<br/>2-4</h2>
-              <p>shop now</p>
+              <div className='jordan-text'>
+                <h2>Just-dropped Beats</h2>
+                <p>shop now</p>
+              </div>
+              <img src='./images/jordan.jpg' alt='cash-hand'></img>
               </a>
-              <img src='./images/notnigga.jpg' alt='cash-hand'></img>
+              </div>
             </div>
+
           </div>
         </section>
       </main>
