@@ -34,7 +34,7 @@ function Header() {
             <img src='./images/handcash.webp' alt='cash-hand'></img>
             <div>
               <h5>How do you want your items?</h5>
-              <p>Sacramento, 95829</p>
+              <p>Sacramento, 95829 - Sacram..</p>
             </div>
             {showcart ? <IoChevronUp /> : <FaChevronDown />}
           </div>

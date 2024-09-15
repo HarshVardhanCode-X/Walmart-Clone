@@ -197,13 +197,16 @@
     height: 100vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
+
 .out-item{
     position: absolute;
     top: 0;
     height: 100vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
 .oute-account{
     position: absolute;
@@ -211,6 +214,7 @@
     height: 100vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
 
 .address-item {
@@ -342,4 +346,25 @@
 
 /* Media Query */
 
-
+@media (min-width: 1920px){
+    .top-header .search-bar input {
+        border: none;
+        width: 1000px;
+        padding: 5px;
+    }
+    .address-cart {
+        position: absolute;
+        left: 3.8%;
+        top: 8%;
+    }
+    .address-item {
+        position: absolute;
+        left: 80.3%;
+        top: 8%;
+    }
+    .address-account {
+        position: absolute;
+        left: 84.2%;
+        top: 8%;
+    }
+}

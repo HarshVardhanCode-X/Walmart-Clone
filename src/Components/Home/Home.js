@@ -51,9 +51,9 @@ function Home() {
               <div className='iphone-position'>
               <a href='#'>
               <div className='iphone-text'>
-                <p>Save upto $1,100</p>
-                <h2>Profoundly<br/>Powerful.</h2>
-                <p>Shop now</p>
+                <p className='iphone-text1'>Save upto $1,100</p>
+                <h2>Profoundly<br/>powerful.</h2>
+                <p className='iphone-text2'>Preorder now</p>
               </div>
               <img src='./images/iphone.jpg' alt='cash-hand'></img>
               </a>
@@ -90,9 +90,9 @@ function Home() {
               <div className='walmart-banner-position'>
               <a href='#'>
               <div className='walmart-banner-text'>
-                <p>Walmart+ members save big with<br/>free delivery from stores</p>
-                <p>Terms apply.</p>
-                <p>Join Walmart+</p>
+                <p className='walmart-text1'>Walmart+ members save big with<br/>free delivery from stores</p>
+                <p className='walmart-text2'>Terms apply.</p>
+                <p className='walmart-text3'>Join Walmart+</p>
               </div>
               <img src='./images/walmart.webp' alt='cash-hand'></img>
               </a>
