@@ -243,10 +243,11 @@ a{
 .electronic-text2{
     padding-bottom: 30px;
 }
-.electronic-images .owl-theme .item div img{
+.electronic-images .owl-theme .item img{
     width: 100%;
     height: auto;
     object-fit: contain;
+    aspect-ratio: 16/9;
 }
 
 @media (min-width: 1920px) {
