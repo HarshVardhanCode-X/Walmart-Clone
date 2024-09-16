@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import OwlCarousel from 'react-owl-carousel';
+import { DiNancy } from 'react-icons/di';
 
 function Home() {
 
@@ -25,16 +26,14 @@ function Home() {
       1000: {
         items: 3,
       }
-    },
-    nav: false,
-    dots: true
+    }
   }
 
 
 
   return (
     <>
-      <main>
+      <main className='main-images'>
         <section className='main-body'>
           <div className='first'>
             <div className='goat'>
@@ -172,50 +171,70 @@ function Home() {
           </div>
         </section>
       </main>
-      <main>
+
+      <main className='slider1'>
         <section>
-          <div className='electronic-items'>
-            <h2>Popular in cell phones, portable & smart devices</h2>
+          <div className='electronic-text1'>
+            <h2>Walk this way</h2>
+            <p><a href='#'>View all</a></p>
           </div>
-          <div>
-          <OwlCarousel className='owl-theme' loop={true}  margin={20} nav autoplay={true} autoplayTimeout={1000}>
-    <div class='item'>
-        <h4>1</h4>
-    </div>
-    <div class='item'>
-        <h4>2</h4>
-    </div>
-    <div class='item'>
-        <h4>3</h4>
-    </div>
-    <div class='item'>
-        <h4>4</h4>
-    </div>
-    <div class='item'>
-        <h4>5</h4>
-    </div>
-    <div class='item'>
-        <h4>6</h4>
-    </div>
-    <div class='item'>
-        <h4>7</h4>
-    </div>
-    <div class='item'>
-        <h4>8</h4>
-    </div>
-    <div class='item'>
-        <h4>9</h4>
-    </div>
-    <div class='item'>
-        <h4>10</h4>
-    </div>
-    <div class='item'>
-        <h4>11</h4>
-    </div>
-    <div class='item'>
-        <h4>12</h4>
-    </div>
-</OwlCarousel>;
+          <div className='electronic-text2'>
+            <p>The Shoe Edit has it all.</p>
+          </div>
+
+          <div className='electronic-images'>
+            <OwlCarousel className='owl-theme' loop={true} dots={false} nav autoplay={true} autoplayTimeout={2000}>
+              <div class='item'>
+                <div>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <button>Options</button>
+              </div>
+              <div class='item'>
+                <img src='./images/boot2.webp' alt='cash-hand'></img>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <button>Options</button>
+              </div>
+              <div class='item'>
+                <img src='./images/boot3.webp' alt='cash-hand'></img>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <button>Options</button>
+              </div>
+              <div class='item'>
+                <img src='./images/boot4.webp' alt='cash-hand'></img>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <button>Options</button>
+              </div>
+              <div class='item'>
+                  <h4>5</h4>
+              </div>
+              <div class='item'>
+                  <h4>6</h4>
+              </div>
+              <div class='item'>
+                  <h4>7</h4>
+              </div>
+              <div class='item'>
+                  <h4>8</h4>
+              </div>
+              <div class='item'>
+                  <h4>9</h4>
+              </div>
+              <div class='item'>
+                  <h4>10</h4>
+              </div>
+              <div class='item'>
+                  <h4>11</h4>
+              </div>
+              <div class='item'>
+                  <h4>12</h4>
+              </div>
+            </OwlCarousel>
           </div>
         </section>
       </main>

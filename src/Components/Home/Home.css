@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-main{
+.main-images{
     display: flex;
     align-items: first baseline;
     justify-content: center;
@@ -17,6 +17,7 @@ main{
     align-items: center;
     justify-content: space-between;
     padding: 18px;
+    margin-top: 7%;
 }
 
 .main-body img {
@@ -37,10 +38,7 @@ main{
     align-items: center;
     justify-content: space-between;
 }
-.second div{
-    /* padding: 8px; */
-    /* margin: -4px 0; */
-}
+
 .insider-second {
     display: flex;
     align-items: center;
@@ -51,9 +49,6 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-}
-.third div{
-    /* padding: 8px; */
 }
 
 a{
@@ -226,6 +221,34 @@ a{
     font-size: 22px;
 }
 
+.slider1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.slider1 section{
+    max-width: 100%;
+    padding: 18px;
+}
+.electronic-text1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.electronic-text1 p:hover{
+    text-decoration: underline;
+}
+.electronic-text2{
+    padding-bottom: 30px;
+}
+.electronic-images .owl-theme .item div img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 @media (min-width: 1920px) {
     .main-body {
         display: flex;
@@ -233,6 +256,10 @@ a{
         height: auto;
         align-items: center;
         justify-content: space-between;
+        padding: 18px;
+    }
+    .slider1 section{
+        max-width: 87%;
         padding: 18px;
     }
 }

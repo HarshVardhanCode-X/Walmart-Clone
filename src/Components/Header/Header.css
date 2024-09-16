@@ -6,6 +6,8 @@
 .mainheader{
     width: 100%;
     height: auto;
+    position: fixed;
+    z-index: 1;
 }
 
 .top-header {
@@ -201,7 +203,7 @@
 }
 
 .out-item{
-    position: absolute;
+    position: fixed;
     top: 0;
     height: 100vh;
     width: 100%;
@@ -209,7 +211,7 @@
     z-index: 1;
 }
 .oute-account{
-    position: absolute;
+    position: fixed;
     top: 0;
     height: 100vh;
     width: 100%;
