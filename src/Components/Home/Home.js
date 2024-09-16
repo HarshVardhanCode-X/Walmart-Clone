@@ -183,7 +183,7 @@ function Home() {
           </div>
 
           <div className='electronic-images'>
-            <OwlCarousel className='owl-theme' loop={true} margin={53} dots={false} nav autoplay={true} autoplayTimeout={2000} autoplayHoverPause={true} autoWidth={true} mouseDrag={true}>
+            <OwlCarousel className='owl-theme' loop={true} margin={82} dots={false} nav autoplay={true} autoplayTimeout={2000} autoplayHoverPause={true} autoWidth={true} mouseDrag={true}>
               
               <div class='item'>
                 <div className='owl-image'>
@@ -191,7 +191,7 @@ function Home() {
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
-                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
                 <button>Options</button>
                 </div>
               </div>
@@ -202,7 +202,7 @@ function Home() {
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
-                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
                 <button>Options</button>
                 </div>
               </div>
@@ -213,7 +213,7 @@ function Home() {
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
-                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
                 <button>Options</button>
                 </div>
               </div>
@@ -224,7 +224,7 @@ function Home() {
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
-                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
                 <button>Options</button>
                 </div>
               </div>
@@ -235,7 +235,7 @@ function Home() {
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
-                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
                 <button>Options</button>
                 </div>
               </div>
@@ -246,7 +246,7 @@ function Home() {
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
-                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
                 <button>Options</button>
                 </div>
               </div>
@@ -257,7 +257,7 @@ function Home() {
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
-                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
                 <button>Options</button>
                 </div>
               </div>
@@ -268,7 +268,7 @@ function Home() {
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
-                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
                 <button>Options</button>
                 </div>
               </div>
@@ -279,7 +279,7 @@ function Home() {
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
-                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
                 <button>Options</button>
                 </div>
               </div>
@@ -290,7 +290,7 @@ function Home() {
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
-                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
                 <button>Options</button>
                 </div>
               </div>
@@ -301,7 +301,7 @@ function Home() {
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
-                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
                 <button>Options</button>
                 </div>
               </div>
@@ -312,7 +312,7 @@ function Home() {
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
-                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
                 <button>Options</button>
                 </div>
               </div>
@@ -323,7 +323,7 @@ function Home() {
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
-                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
                 <button>Options</button>
                 </div>
               </div>
@@ -334,7 +334,7 @@ function Home() {
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
-                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
                 <button>Options</button>
                 </div>
               </div>
@@ -345,7 +345,7 @@ function Home() {
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
-                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <p>No Boundaries Women'<br/>Buckle Moto Boots</p>
                 <button>Options</button>
                 </div>
               </div>

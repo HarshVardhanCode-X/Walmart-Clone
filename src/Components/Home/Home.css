@@ -257,7 +257,29 @@ a{
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-    gap: 30px;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item .owl-text h5{
+    font-size: 17px;
+    padding: 10px 0;
+}
+.item .owl-text p{
+    font-size: 15px;
+    line-height: 23px;
+    padding-bottom: 10px;
+}
+.item .owl-text button{
+    padding: 7px 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid rgb(57, 57, 57);
+    background-color: white;
+}
+.item .owl-text button:hover{
+    border: 2px solid rgb(35, 34, 34);
 }
 
 
