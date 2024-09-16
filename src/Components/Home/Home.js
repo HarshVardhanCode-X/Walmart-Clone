@@ -183,57 +183,173 @@ function Home() {
           </div>
 
           <div className='electronic-images'>
-            <OwlCarousel className='owl-theme' loop={true} dots={false} nav autoplay={true} autoplayTimeout={2000}>
+            <OwlCarousel className='owl-theme' loop={true} margin={53} dots={false} nav autoplay={true} autoplayTimeout={2000} autoplayHoverPause={true} autoWidth={true} mouseDrag={true}>
+              
               <div class='item'>
-                <div>
+                <div className='owl-image'>
                 <img src='./images/boot1.webp' alt='cash-hand'></img>
                 </div>
+                <div className='owl-text'>
                 <h5>$27.98</h5>
                 <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
                 <button>Options</button>
+                </div>
               </div>
+
               <div class='item'>
+                <div className='owl-image'>
                 <img src='./images/boot2.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
                 <h5>$27.98</h5>
                 <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
                 <button>Options</button>
+                </div>
               </div>
+
               <div class='item'>
+                <div className='owl-image'>
                 <img src='./images/boot3.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
                 <h5>$27.98</h5>
                 <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
                 <button>Options</button>
+                </div>
               </div>
+
               <div class='item'>
+                <div className='owl-image'>
                 <img src='./images/boot4.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
                 <h5>$27.98</h5>
                 <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
                 <button>Options</button>
+                </div>
               </div>
+
               <div class='item'>
-                  <h4>5</h4>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <button>Options</button>
+                </div>
               </div>
+
               <div class='item'>
-                  <h4>6</h4>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <button>Options</button>
+                </div>
               </div>
+
               <div class='item'>
-                  <h4>7</h4>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <button>Options</button>
+                </div>
               </div>
+
               <div class='item'>
-                  <h4>8</h4>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <button>Options</button>
+                </div>
               </div>
+
               <div class='item'>
-                  <h4>9</h4>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <button>Options</button>
+                </div>
               </div>
+
               <div class='item'>
-                  <h4>10</h4>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <button>Options</button>
+                </div>
               </div>
+
               <div class='item'>
-                  <h4>11</h4>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <button>Options</button>
+                </div>
               </div>
+
               <div class='item'>
-                  <h4>12</h4>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <button>Options</button>
+                </div>
               </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot2.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's Buckle<br/>Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
             </OwlCarousel>
           </div>
         </section>
