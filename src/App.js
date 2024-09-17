@@ -6,7 +6,7 @@ import Home from './Components/Home/Home';
 import Contact from './Components/Contact/Contact';
 import 'owl.carousel/dist/assets/owl.carousel.css'; 
 import 'owl.carousel/dist/assets/owl.theme.default.css'; 
-
+// import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
     
     return(

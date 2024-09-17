@@ -281,7 +281,28 @@ a{
 .item .owl-text button:hover{
     border: 2px solid rgb(35, 34, 34);
 }
-
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+    border: none;
+    padding: 10px !important;
+    font: inherit;
+    float: left;
+}
+.owl-carousel .owl-nav button.owl-next{
+    background-color: white !important;
+    color: black !important;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    float: right;
+}
 
 @media (min-width: 1920px) {
     .main-body {
