@@ -39,17 +39,17 @@ function Home() {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
     items:6,
-    slidesToSlide: 2 // optional, default to 1.
+    slidesToSlide: 1 
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
     items: 3,
-    slidesToSlide: 2 // optional, default to 1.
+    slidesToSlide: 1
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
     items: 1,
-    slidesToSlide: 1 // optional, default to 1.
+    slidesToSlide: 1
   }
 };
 
@@ -196,6 +196,7 @@ function Home() {
         </section>
       </main>
 
+
       <main className='slider1'>
         <section>
           <div className='electronic-text1'>
@@ -207,7 +208,11 @@ function Home() {
           </div>
 
           <div className='electronic-images'>
-            <OwlCarousel className='owl-theme' loop={true} margin={82} dots={false} nav autoplay={true} autoplayTimeout={2000} autoplayHoverPause={true} autoWidth={true} mouseDrag={true}>
+
+              <Carousel responsive={responsive} swipeable={true}
+                        draggable={true} autoPlay={true} infinite={true}
+                        autoPlaySpeed={2000} autoplayHoverPause={true}
+                        mouseDrag={true} autoWidth={true}>
               
               <div class='item'>
                 <div className='owl-image'>
@@ -373,27 +378,327 @@ function Home() {
                 <button>Options</button>
                 </div>
               </div>
+              </Carousel>
 
-            </OwlCarousel>
           </div>
         </section>
       </main>
+      
+      <div className='hori-line1'>
+        <hr/>
+      </div>
 
-      <main>
+      <main className='slider2'>
         <section>
-          <div>
-            
-              <Carousel responsive={responsive} infinite={true}>
-                <div>Item 1</div>
-                <div>Item 2</div>
-                <div>Item 3</div>
-                <div>Item 4</div>
-                  <div>Item 1</div>
-                <div>Item 2</div>
-                <div>Item 3</div>
-                <div>Item 4</div>
-              </Carousel>
+          <div className='electronic-text1'>
+            <h2>Walk this way</h2>
+            <p><a href='#'>View all</a></p>
+          </div>
+          <div className='electronic-text2'>
+            <p>The Shoe Edit has it all.</p>
+          </div>
 
+          <div className='electronic-images'>
+
+              <Carousel responsive={responsive} swipeable={true}
+                        draggable={true} autoPlay={true} infinite={true}
+                        autoPlaySpeed={2000} autoplayHoverPause={true}
+                        mouseDrag={true} autoWidth={true}>
+              
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot2.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot3.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot4.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot2.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women'<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+              </Carousel>
+            </div>
+          </section>
+        </main>
+        
+        <div className='hori-line1'>
+          <hr/>
+        </div>
+
+        <main className='slider3'>
+        <section>
+          <div className='electronic-text-small'>
+            <h2>Walk this way</h2>
+          </div>
+        
+          <div className='electronic-images'>
+
+              <Carousel responsive={responsive} swipeable={true}
+                        draggable={true} autoPlay={false} infinite={true}
+                        mouseDrag={true} autoWidth={true}>
+              
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <p>Home</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <p>Home</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <p>Home</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <p>Home</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <p>Home</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <p>Home</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <p>Home</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <p>Home</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <p>Home</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <p>Home</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <p>Home</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <p>Home</p>
+                </div>
+              </div>
+
+              </Carousel>
           </div>
         </section>
       </main>

@@ -7,7 +7,7 @@
     width: 100%;
     height: auto;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
 }
 
 .top-header {
@@ -294,7 +294,6 @@
     padding: 15px 23px;
     align-items: center;
     justify-content: flex-start;
-    gap: 10px;
 }
 
 .first-name {

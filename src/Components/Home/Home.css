@@ -241,13 +241,12 @@ a{
     text-decoration: underline;
 }
 .electronic-text2{
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     padding-left: 5px;
 }
 .electronic-images{
     width: 100%;
     height: auto;
-    padding: 2px 10px;
 }
 .electronic-images .owl-theme .item img{
     width: auto;
@@ -281,28 +280,60 @@ a{
 .item .owl-text button:hover{
     border: 2px solid rgb(35, 34, 34);
 }
-.owl-theme .owl-nav {
-    margin-top: 10px;
-    text-align: center;
-    -webkit-tap-highlight-color: transparent;
-}
-.owl-carousel .owl-nav button.owl-prev{
-    background-color: white !important;
-    color: black !important;
+.react-multiple-carousel__arrow--left{
+    left:calc(1% + 1px) !important;
+    background-color: rgba(154, 153, 153,0.5) !important;
     border: 1px solid black !important;
-    border: none;
-    padding: 10px !important;
-    font: inherit;
-    float: left;
+    z-index: 0 !important;
 }
-.owl-carousel .owl-nav button.owl-next{
-    background-color: white !important;
-    color: black !important;
-    border: none;
-    padding: 0 !important;
-    font: inherit;
-    float: right;
+.react-multiple-carousel__arrow--right{
+    right:calc(1% + 1px) !important;
+    background-color: rgba(154, 153, 153,0.5) !important;
+    border: 1px solid black !important;
+    z-index: 0 !important;
 }
+.slider2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+}
+.slider2 section{
+    max-width: 100%;
+    padding: 20px;
+}
+.hori-line1{
+    width: 100%;
+    padding: 0 20px;
+    padding-top: 20px;
+}
+.slider3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+}
+.slider3 section{
+    max-width: 100%;
+    padding: 20px;
+}
+.electronic-text-small{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.electronic-text-small p:hover{
+    text-decoration: underline;
+}
+
+.slider3 section .electronic-images .item{
+    padding-top: 0;
+    gap: 2px;
+}
+
 
 @media (min-width: 1920px) {
     .main-body {
@@ -314,9 +345,22 @@ a{
         padding: 18px;
         margin: 7%;
     }
-    
     .slider1 section{
         max-width: 87%;
         padding: 20px;
     }
+    .slider2 section{
+        max-width: 87%;
+        padding: 20px;
+    }
+    .hori-line1{
+        width: 100%;
+        padding: 0 50px;
+        padding-top: 20px;
+    }
+    .slider3 section{
+        max-width: 87%;
+        padding: 20px;
+    }
+
 }
