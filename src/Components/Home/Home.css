@@ -223,6 +223,11 @@ a{
     top: 4%;
     font-size: 22px;
 }
+.main-images .main-body .iphone h2{
+    font-weight: 600;
+
+}
+
 
 .slider1{
     display: flex;
@@ -330,6 +335,7 @@ a{
     align-items: center;
     justify-content: space-between;
     padding: 0 5px;
+    padding-bottom: 25px;
 }
 .electronic-text-small p:hover{
     text-decoration: underline;
@@ -349,8 +355,10 @@ a{
 }
 .flexbox-1{
     width: 45%;
-    padding-bottom: 80px;
     padding-top: 0;
+}
+.slider4 .flex-it .electronic-images{
+    padding-top: 50px;
 }
 .flexbox-2{
     width: 45%;
@@ -400,6 +408,9 @@ a{
     padding: 20px;
     padding-top: 0;
 }
+.slider5 .flex-it2 .electronic-images{
+    padding-top: 50px;
+}
 .flex-it2{
     display: flex;
     align-items: center;
@@ -423,6 +434,7 @@ a{
     align-items: center;
     align-items: flex-start;
     justify-content:space-evenly;
+    gap: 12px;
 }
 .collage1 section .collage-part1 img, .collage1 section .collage-part3 img {
     width: 100%;
@@ -437,12 +449,13 @@ a{
     flex-direction: column;
     width: auto;
     height: auto;
-    gap: 8px;
+    gap: 15px;
 }
 .below-merry{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    gap: 10px;
 }
 .collage-part2 img{
     width: 100%;
@@ -457,11 +470,134 @@ a{
     position: absolute;
     top: 4%;
     left: 4%;
-    font-size: 25px;
+}
+.slider6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.slider6 section{
+    max-width: 100%;
+    padding: 20px;
 }
 
 
+.collage2{
+    width: 100%;
+    height: auto;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collage2 section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    gap: 12px;
+}
+.collage2 section .collage2-part1 img, .collage2 section .collage2-part3 img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+.collage2-part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    gap: 15px;
+}
+.below-gun{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.collage2-part2 img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+.barbie, .gun, .starwars, .prime, .blackmagic{
+    position: relative;
+}
+.barbie .barbie-text, .gun .gun-text, .starwars .starwars-text, .prime .prime-text, .blackmagic .blackmagic-text{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+}
 
+
+.collage3{
+    width: 100%;
+    height: auto;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collage3 section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    gap: 12px;
+}
+.collage3 section .collage3-part1 img, .collage3 section .collage3-part3 img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+.collage3-part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    gap: 15px;
+}
+.below-desk{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.collage3-part2 img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+.candel, .desk, .tv, .airfry, .liquor{
+    position: relative;
+}
+.candel .candel-text, .desk .desk-text, .tv .tv-text, .airfry .airfry-text, .liquor .liquor-text{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+}
+
+.slider7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.slider7 section{
+    max-width: 100%;
+    padding: 20px;
+}
 
 
 
@@ -501,7 +637,31 @@ a{
         max-width: 87%;
         padding: 20px;
     }
+    .slider6 section{
+        max-width: 87%;
+        padding: 20px;
+    }
+    .slider7 section{
+        max-width: 87%;
+        padding: 20px;
+    }
     .collage1{
+        width: 87%;
+        height: auto;
+        padding: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .collage2{
+        width: 87%;
+        height: auto;
+        padding: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .collage3{
         width: 87%;
         height: auto;
         padding: 18px;
