@@ -14,10 +14,11 @@
     display: flex;
     width: 100%;
     height: auto;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 18px;
     margin-top: 8.5%;
+    gap: 5px;
 }
 
 .main-body img {
@@ -31,6 +32,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    gap: 4px;
 }
 .second{
     display: flex;
@@ -49,6 +51,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    gap: 4px;
 }
 
 a{
@@ -308,6 +311,9 @@ a{
     padding: 0 20px;
     padding-top: 20px;
 }
+.hori-line1 hr{
+    border-color:rgba(213, 185, 185, 0.3);
+}
 .slider3{
     display: flex;
     align-items: center;
@@ -333,6 +339,131 @@ a{
     padding-top: 0;
     gap: 2px;
 }
+.slider4{
+    width: 100%;
+    padding-top: 30px;
+}
+.slider4 section{
+    max-width: 100%;
+    padding: 20px;
+}
+.flexbox-1{
+    width: 45%;
+    padding-bottom: 80px;
+    padding-top: 0;
+}
+.flexbox-2{
+    width: 45%;
+    position: relative;
+}
+.flex-it{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+.flexbox-2 .dog-text{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    font-size: 25px;
+}
+.flexbox-2 img{
+    border-radius: 14px;
+}
+.flexbox-2 .dog-text .heading{
+    font-size: 55px;
+    font-weight:400;
+    padding-bottom: 20px;
+}
+.flexbox-2 .dog-text button{
+    padding: 9px 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid rgb(57, 57, 57);
+    background-color: white;
+}
+.flexbox-2 .dog-text button:hover{
+    border: 2px solid rgb(35, 34, 34);
+    cursor: pointer;
+}
+.flexbox-1 .electronic-images .item{
+    padding-top: 0;
+    gap: 0;
+}
+.slider5{
+    width: 100%;
+    padding-top: 0;
+}
+.slider5 section{
+    max-width: 100%;
+    padding: 20px;
+    padding-top: 0;
+}
+.flex-it2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+}
+
+
+.collage1{
+    width: 100%;
+    height: auto;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collage1 section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    justify-content:space-evenly;
+}
+.collage1 section .collage-part1 img, .collage1 section .collage-part3 img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+.collage-part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    gap: 8px;
+}
+.below-merry{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.collage-part2 img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+.pumpkin, .merry, .candy, .skull, .fairy{
+    position: relative;
+}
+.pumpkin .pumpkin-text, .merry .merry-text, .candy .candy-text, .skull .skull-text, .fairy .fairy-text{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    font-size: 25px;
+}
+
+
+
+
+
 
 
 @media (min-width: 1920px) {
@@ -361,6 +492,22 @@ a{
     .slider3 section{
         max-width: 87%;
         padding: 20px;
+    }
+    .slider4 section{
+        max-width: 87%;
+        padding: 20px;
+    }
+    .slider5 section{
+        max-width: 87%;
+        padding: 20px;
+    }
+    .collage1{
+        width: 87%;
+        height: auto;
+        padding: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
 }
