@@ -1002,9 +1002,9 @@ const slider3= {
           <div className='collage-part1'>
             <div className='pumpkin'>
               <div className='pumpkin-text'>
-                <p>Fall Vibes</p>
-                <p className='heading'>Feels like home</p>
-                <button>Shop now</button>
+                <p>Pumpkins to parties</p>
+                <p className='heading'>Your Halloween HQ</p>
+                <button>Shop all</button>
               </div>
               <div className='pumpkin-image'>
                 <img src='./images/pumpkin.jpg' alt='cash-hand'></img>
@@ -1015,9 +1015,9 @@ const slider3= {
           <div className='collage-part2'>
             <div className='merry'>
               <div className='merry-text'>
-                <p>Fall Vibes</p>
-                <p className='heading'>Feels like home</p>
-                <p>Shop now</p>
+                <p className='text'>To-die-for decor</p>
+                <p className='heading'>Home is where<br/>the haunt is</p>
+                <p className='text1'>Shop now</p>
               </div>
               <div className='merry-image'>
                 <img src='./images/merry.jpg' alt='cash-hand'></img>
@@ -1027,9 +1027,8 @@ const slider3= {
             <div className='below-merry'>
               <div className='candy'>
                 <div className='candy-text'>
-                  <p>Fall Vibes</p>
-                  <p className='heading'>Feels like home</p>
-                  <p>Shop now</p>
+                  <p className='heading'>Be the good<br/>candy house</p>
+                  <p className='text1'>Shop now</p>
                 </div>
                 <div className='candy-image'>
                   <img src='./images/candy.jpg' alt='cash-hand'></img>
@@ -1038,9 +1037,8 @@ const slider3= {
 
               <div className='skull'>
                 <div className='skull-text'>
-                  <p>Fall Vibes</p>
-                  <p className='heading'>Feels like home</p>
-                  <p>Shop now</p>
+                  <p className='heading'>Throw a monster<br/>mash</p>
+                  <p className='text1'>Shop now</p>
                 </div>
                 <div className='skull-image'>
                   <img src='./images/skull.jpg' alt='cash-hand'></img>
@@ -1052,9 +1050,8 @@ const slider3= {
           <div className='collage-part3'>
             <div className='fairy'>
               <div className='fairy-text'>
-                <p>Fall Vibes</p>
-                <p className='heading'>Feels like home</p>
-                <p>Shop now</p>
+                <p className='heading'>Cutest costumes on<br/>the block</p>
+                <p className='text1'>Shop now</p>
               </div>
               <div className='fairy-image'>
                 <img src='./images/fairy.jpg' alt='cash-hand'></img>

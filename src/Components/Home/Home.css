@@ -370,14 +370,14 @@ a{
     width: 100%;
     gap: 15px;
 }
+.flexbox-2 img{
+    border-radius: 14px;
+}
 .flexbox-2 .dog-text{
     position: absolute;
     top: 4%;
     left: 4%;
     font-size: 25px;
-}
-.flexbox-2 img{
-    border-radius: 14px;
 }
 .flexbox-2 .dog-text .heading{
     font-size: 55px;
@@ -442,6 +442,28 @@ a{
     object-fit: contain;
     border-radius: 8px;
 }
+.pumpkin .pumpkin-text{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    font-size: 25px;
+}
+.pumpkin .pumpkin-text .heading{
+    font-size: 55px;
+    font-weight:400;
+    padding-bottom: 20px;
+}
+.pumpkin .pumpkin-text button{
+    padding: 9px 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid rgb(57, 57, 57);
+    background-color: white;
+}
+.pumpkin .pumpkin-text button:hover{
+    border: 2px solid rgb(35, 34, 34);
+    cursor: pointer;
+}
 .collage-part2{
     display: flex;
     align-items: center;
@@ -470,6 +492,52 @@ a{
     position: absolute;
     top: 4%;
     left: 4%;
+}
+.collage-part2 .merry .merry-text{
+    top: 10%;
+    color: white;
+}
+.merry-text .text{
+    font-size: 19px;
+}
+.merry-text .heading{
+    font-size: 30px;
+    font-weight: 600;
+}
+.text1{
+    text-decoration: underline;
+    padding-top: 14px;
+}
+.text1:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.candy-text .text{
+    font-size: 19px;
+}
+.candy-text .heading{
+    font-size: 26px;
+    font-weight: 600;
+}
+.below-merry .candy .candy-text{
+    top: 5%;
+    left: 8%;
+}
+.below-merry .skull .skull-text{
+    top: 5%;
+    left: 8%;
+    color: white;
+}
+.skull-text .heading{
+    font-size: 26px;
+    font-weight: 600;
+}
+.fairy-text .heading{
+    font-size: 32px;
+    font-weight: 600;
+}
+.fairy .fairy-text{
+    left: 7%;
 }
 .slider6{
     display: flex;
