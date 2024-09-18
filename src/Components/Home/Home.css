@@ -606,9 +606,52 @@ a{
 .barbie .barbie-text, .gun .gun-text, .starwars .starwars-text, .prime .prime-text, .blackmagic .blackmagic-text{
     position: absolute;
     top: 4%;
-    left: 4%;
+    left: 5%;
+}
+.collage2-part2 .gun .gun-text{
+    top: 9%;
+}
+.gun-text .heading{
+    font-size: 30px;
+    font-weight: 600;
+}
+.starwars-text .heading{
+    font-size: 26px;
+    font-weight: 600;
+}
+.below-gun .starwars .starwars-text{
+    top: 5%;
+    left: 8%;
+}
+.below-gun .prime .prime-text{
+    top: 5%;
+    left: 8%;
+}
+.prime-text .heading{
+    font-size: 26px;
+    font-weight: 600;
+}
+.blackmagic-text .text{
+    font-size: 19px;
+}
+.blackmagic-text .heading{
+    font-size: 34px;
+    font-weight: 600;
+}
+.blackmagic .blackmagic-text{
+    left: 7%;
 }
 
+.slider7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.slider7 section{
+    max-width: 100%;
+    padding: 20px;
+}
 
 .collage3{
     width: 100%;
@@ -662,13 +705,13 @@ a{
     left: 4%;
 }
 
-.slider7{
+.slider8{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.slider7 section{
+.slider8 section{
     max-width: 100%;
     padding: 20px;
 }
@@ -720,6 +763,10 @@ a{
         padding: 20px;
     }
     .slider7 section{
+        max-width: 87%;
+        padding: 20px;
+    }
+    .slider8 section{
         max-width: 87%;
         padding: 20px;
     }

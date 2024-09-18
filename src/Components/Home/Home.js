@@ -1103,9 +1103,6 @@ const slider3= {
           <div className='collage2-part1'>
             <div className='barbie'>
               <div className='barbie-text'>
-                <p>Fall Vibes</p>
-                <p className='heading'>Feels like home</p>
-                <button>Shop now</button>
               </div>
               <div className='barbie-image'>
                 <img src='./images/barbie.jpg' alt='cash-hand'></img>
@@ -1116,9 +1113,8 @@ const slider3= {
           <div className='collage2-part2'>
             <div className='gun'>
               <div className='gun-text'>
-                <p>Fall Vibes</p>
-                <p className='heading'>Feels like home</p>
-                <p>Shop now</p>
+                <p className='heading'>Big fun from<br/>Little Tikes</p>
+                <p className='text1'>Shop now</p>
               </div>
               <div className='gun-image'>
                 <img src='./images/gun.jpg' alt='cash-hand'></img>
@@ -1128,9 +1124,8 @@ const slider3= {
             <div className='below-gun'>
               <div className='starwars'>
                 <div className='starwars-text'>
-                  <p>Fall Vibes</p>
-                  <p className='heading'>Feels like home</p>
-                  <p>Shop now</p>
+                  <p className='heading'>Playdate faves -<br/>only here</p>
+                  <p className='text1'>Shop now</p>
                 </div>
                 <div className='starwars-image'>
                   <img src='./images/starwars.jpg' alt='cash-hand'></img>
@@ -1139,9 +1134,8 @@ const slider3= {
 
               <div className='prime'>
                 <div className='prime-text'>
-                  <p>Fall Vibes</p>
-                  <p className='heading'>Feels like home</p>
-                  <p>Shop now</p>
+                  <p className='heading'>Transformers,<br/>roll out</p>
+                  <p className='text1'>Shop now</p>
                 </div>
                 <div className='prime-image'>
                   <img src='./images/prime.jpg' alt='cash-hand'></img>
@@ -1153,9 +1147,9 @@ const slider3= {
           <div className='collage2-part3'>
             <div className='blackmagic'>
               <div className='blackmagic-text'>
-                <p>Fall Vibes</p>
-                <p className='heading'>Feels like home</p>
-                <p>Shop now</p>
+                <p className='text'>Halloween toys</p>
+                <p className='heading'>Fright night for<br/>everyone</p>
+                <p className='text1'>Shop now</p>
               </div>
               <div className='blackmagic-image'>
                 <img src='./images/blackmagic.jpg' alt='cash-hand'></img>
@@ -1164,6 +1158,141 @@ const slider3= {
           </div>
         </section>
       </main>
+
+
+      <main className='slider7'>
+        <section>
+          <div className='electronic-text1'>
+            <h2>Hours of entertainment</h2>
+            <p><a href='#'>View all</a></p>
+          </div>
+          <div className='electronic-text2'>
+            <p>For every age & stage.</p>
+          </div>
+
+          <div className='electronic-images'>
+
+              <Carousel responsive={responsive} swipeable={true}
+                        draggable={true} autoPlay={true} infinite={true}
+                        autoPlaySpeed={2000} autoplayHoverPause={true}
+                        mouseDrag={true} autoWidth={true}>
+              
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/toy1.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/toy2.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/toy3.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/toy4.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/toy5.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/toy6.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/toy7.png' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/toy8.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/toy9.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                <img src='./images/toy10.webp' alt='cash-hand'></img>
+                </div>
+                <div className='owl-text'>
+                <h5>$27.98</h5>
+                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                <button>Options</button>
+                </div>
+              </div>
+
+              </Carousel>
+
+          </div>
+        </section>
+      </main>
+
 
       <div className='hori-line1'>
         <hr/>
@@ -1248,7 +1377,7 @@ const slider3= {
         <hr/>
       </div>
 
-      <main className='slider7'>
+      <main className='slider8'>
         <section>
           <div className='electronic-text1'>
             <h2>Walk this way</h2>
