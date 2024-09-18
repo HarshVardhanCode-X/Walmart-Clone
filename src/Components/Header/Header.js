@@ -14,8 +14,7 @@ import { PiDownloadSimpleLight } from "react-icons/pi";
 import { PiGiftLight } from "react-icons/pi";
 import { CgNotes } from "react-icons/cg";
 import { IoChevronUp } from "react-icons/io5";
-
-
+import { Link } from "react-router-dom";
 import './Header.css'
 
 function Header() {
@@ -160,7 +159,7 @@ function Header() {
 
       {showaccount && <div className='oute-account' onClick={()=>setshowaccount(false)}>
       <div className='address-account'>
-        <div className='create-acc'><h5>Sign in or create account</h5></div>
+        <div className='create-acc'><Link to='/Login'><h5>Sign in or create account</h5></Link></div>
         <hr />
         <div className='history'>
           <div><CgNotes /></div>

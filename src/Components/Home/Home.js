@@ -5,36 +5,13 @@ import { DiNancy } from 'react-icons/di';
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 import { MdPadding } from 'react-icons/md';
-
+import { PiToggleRight } from "react-icons/pi";
 
 
 
 
 function Home() {
 
-
-  const options = {
-    responsive: {
-      0: {
-        items: 1,
-      },
-      400: {
-        items: 1,
-      },
-      600: {
-        items: 1,
-      },
-      700: {
-        items: 1,
-      },
-      800: {
-        items: 2,
-      },
-      1000: {
-        items: 3,
-      }
-    }
-  }
 
   const responsive = {
   desktop: {
@@ -1720,6 +1697,24 @@ const socialMedia= {
         <hr/>
       </div>
 
+
+        <footer className='login-footer-home'>
+            <div className='login-footer1-home'>
+                <ul>
+                    <li><a href='#'>Give feedback</a></li>
+                    <li><a href='#'>CA Privacy Rights</a></li>
+                    <li><a href='#'><PiToggleRight color='blue'/> Your Privacy Choices</a></li>
+                    <li><a href='#'>Notice at Collection</a></li>
+                    <li><a href='#'>Request My Personal Information</a></li>
+                    <li><a href='#'>Delete Account</a></li>
+                    <li><a href='#'>California Supply Chains Act</a></li>
+                </ul>
+            </div>
+
+            <div className='login-footer2-home'>
+                <p>© 2024 Walmart. All Rights Reserved.</p>
+            </div>
+        </footer>
 
     </>
   )

@@ -1,0 +1,120 @@
+.login-body, .login-footer{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login-body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+.login-main-div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.login-main-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.login-inside-div2{
+    font-size: 13px;
+    padding-bottom: 18px;
+    padding-top: 12px;
+}
+.login-inside-div3{
+    padding: 6px 0;
+}
+.login-inside-div3, .login-inside-div4{
+    font-size: 15px;
+    color: rgb(61, 61, 61);
+}
+.login-inside-div11{
+    padding: 8px 0;
+    font-weight: bold;
+    font-size: 13.8px;
+}
+.login-main-div2 input{
+    width: 380px;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid rgb(112, 112, 112);
+    padding: 10px;
+} 
+.login-main-div2 input:hover{
+    border: 1px solid rgb(0, 0, 0);
+}
+.login-inside-div33{
+    padding-top: 17px;
+}
+.login-main-div2 button{
+    width: 380px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #0071DC;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14.8px;
+}
+.login-main-div2 button:hover{
+ background-color: #004c94;
+ cursor: pointer;
+}
+
+.login-footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    padding-top: 25px;
+}
+.login-footer1 ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.login-footer1 ul li{
+    list-style: none;
+    font-size: 15px;
+}
+.login-footer1 ul li a{
+    color: rgb(79, 77, 77);
+}
+.login-footer2{
+    color: rgb(55, 53, 53);
+}
+.login-inside-div44{
+    color: rgb(61, 61, 61);
+    font-size: 15px;
+    padding-top: 20px;
+}
+.login-inside-div44 .login-inside-div44-inside{
+    text-decoration: underline;
+    padding-top: 7px;
+}
+.login-inside-div44 .login-inside-div44-inside:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.login-line{
+    border-color: rgb(164, 150, 150);
+}

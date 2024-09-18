@@ -273,6 +273,10 @@
     height: auto;
     padding: 10px 5px;
     margin-bottom: 15px;
+    cursor: pointer;
+}
+.create-acc h5{
+    color: white;
 }
 .history{
     margin-top: 15px;
