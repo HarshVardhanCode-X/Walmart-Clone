@@ -348,6 +348,9 @@ a{
 .slider4{
     width: 100%;
     padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .slider4 section{
     max-width: 100%;
@@ -402,6 +405,9 @@ a{
 .slider5{
     width: 100%;
     padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .slider5 section{
     max-width: 100%;
@@ -701,6 +707,10 @@ a{
         max-width: 87%;
         padding: 20px;
     }
+
+    .flexbox-1, .flexbox-2{
+        width: 50%;
+    }
     .slider5 section{
         max-width: 87%;
         padding: 20px;
@@ -714,28 +724,52 @@ a{
         padding: 20px;
     }
     .collage1{
-        width: 87%;
+        width: 100% !important;
         height: auto;
         padding: 18px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+    }
+    .collage1 section{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-items: flex-start;
+        justify-content:center;
+        gap: 20px;
     }
     .collage2{
-        width: 87%;
+        width: 100% !important;
         height: auto;
         padding: 18px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+    }
+    .collage2 section{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-items: flex-start;
+        justify-content:center;
+        gap: 20px;
     }
     .collage3{
-        width: 87%;
+        width: 100% !important;
         height: auto;
         padding: 18px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+    }
+    .collage3 section{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-items: flex-start;
+        justify-content:center;
+        gap: 20px;
     }
 
 }
