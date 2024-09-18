@@ -236,11 +236,11 @@ const slider3= {
       <main className='slider1'>
         <section>
           <div className='electronic-text1'>
-            <h2>Walk this way</h2>
+            <h2>Flash Deals</h2>
             <p><a href='#'>View all</a></p>
           </div>
           <div className='electronic-text2'>
-            <p>The Shoe Edit has it all.</p>
+            <p>Up to 65% off</p>
           </div>
 
           <div className='electronic-images'>
@@ -252,7 +252,7 @@ const slider3= {
               
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/sdeal1.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -263,7 +263,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot2.webp' alt='cash-hand'></img>
+                <img src='./images/deal2.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -274,7 +274,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot3.webp' alt='cash-hand'></img>
+                <img src='./images/deal3.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -285,7 +285,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot4.webp' alt='cash-hand'></img>
+                <img src='./images/deal4.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -296,7 +296,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/deal5.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -307,7 +307,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/deal6.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -318,7 +318,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/deal7.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -329,7 +329,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/deal8.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -340,7 +340,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/deal9.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -351,7 +351,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/deal10.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -360,60 +360,6 @@ const slider3= {
                 </div>
               </div>
 
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot2.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women'<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
               </Carousel>
 
           </div>
@@ -427,11 +373,11 @@ const slider3= {
       <main className='slider2'>
         <section>
           <div className='electronic-text1'>
-            <h2>Walk this way</h2>
+            <h2>Save on patio & garden</h2>
             <p><a href='#'>View all</a></p>
           </div>
           <div className='electronic-text2'>
-            <p>The Shoe Edit has it all.</p>
+            <p>Up to 30% off</p>
           </div>
 
           <div className='electronic-images'>
@@ -443,7 +389,7 @@ const slider3= {
               
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/garden1.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -454,7 +400,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot2.webp' alt='cash-hand'></img>
+                <img src='./images/garden2.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -465,7 +411,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot3.webp' alt='cash-hand'></img>
+                <img src='./images/garden3.jpeg' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -476,7 +422,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot4.webp' alt='cash-hand'></img>
+                <img src='./images/garden4.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -487,7 +433,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/garden5.jpeg' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -498,7 +444,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/garden6.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -509,7 +455,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/garden7.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -520,7 +466,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/garden8.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -531,7 +477,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/garden9.jpeg' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -542,7 +488,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/garden10.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -551,60 +497,6 @@ const slider3= {
                 </div>
               </div>
 
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot2.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women'<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
               </Carousel>
             </div>
           </section>
@@ -1064,11 +956,11 @@ const slider3= {
       <main className='slider6'>
         <section>
           <div className='electronic-text1'>
-            <h2>Walk this way</h2>
+            <h2>Fear not - there's more</h2>
             <p><a href='#'>View all</a></p>
           </div>
           <div className='electronic-text2'>
-            <p>The Shoe Edit has it all.</p>
+            <p>Something wicked this way comes.</p>
           </div>
 
           <div className='electronic-images'>
@@ -1080,7 +972,7 @@ const slider3= {
               
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/hallo1.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1091,7 +983,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot2.webp' alt='cash-hand'></img>
+                <img src='./images/halo2.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1102,7 +994,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot3.webp' alt='cash-hand'></img>
+                <img src='./images/hallo3.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1113,7 +1005,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot4.webp' alt='cash-hand'></img>
+                <img src='./images/hallo4.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1124,7 +1016,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/hallo5.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1135,7 +1027,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/hallo6.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1146,7 +1038,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/hallo7.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1157,7 +1049,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/hallo8.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1168,7 +1060,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/hallo9.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1179,7 +1071,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/hallo10.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1188,60 +1080,6 @@ const slider3= {
                 </div>
               </div>
 
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot2.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women'<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
               </Carousel>
 
           </div>
