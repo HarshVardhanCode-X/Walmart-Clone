@@ -704,6 +704,63 @@ a{
     top: 4%;
     left: 4%;
 }
+.candel .candel-text .heading{
+    font-size: 55px;
+    font-weight:400;
+    padding-bottom: 20px;
+}
+.candel .candel-text button{
+    padding: 9px 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid rgb(57, 57, 57);
+    background-color: white;
+}
+.candel .candel-text button:hover{
+    border: 2px solid rgb(35, 34, 34);
+    cursor: pointer;
+}
+.candel .candel-text{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    font-size: 25px;
+}
+.collage3-part2 .desk .desk-text{
+    top: 9%;
+}
+.desk-text .heading{
+    font-size: 30px;
+    font-weight: 600;
+}
+.tv-text .heading{
+    font-size: 25px;
+    font-weight: 600;
+}
+.below-desk .tv .tv-text{
+    top: 5%;
+    left: 8%;
+}
+.below-desk .airfry .airfry-text{
+    top: 5%;
+    left: 8%;
+}
+.airfry-text .heading{
+    font-size: 25px;
+    font-weight: 600;
+}
+.liquor-text .text{
+    font-size: 19px;
+}
+.liquor-text .heading{
+    font-size: 34px;
+    font-weight: 600;
+}
+.liquor .liquor-text{
+    left: 7%;
+    color: white;
+}
+
 
 .slider8{
     display: flex;
@@ -716,6 +773,61 @@ a{
     padding: 20px;
 }
 
+.video-slider1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.video-slider1 section{
+    max-width: 100%;
+    padding: 20px;
+}
+.electronic-videos .item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 13px;
+}
+.electronic-videos .item video{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px 8px 0 0;
+}
+.electronic-videos .item .video-text{
+   padding-left: 4px; 
+}
+.electronic-videos .item .video-text p{
+    font-size: 14px;
+}
+.video-slider2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.video-slider2 section{
+    max-width: 100%;
+    padding: 20px;
+}
+.video-slider2 section .electronic-text2{
+    padding-bottom: 30px;
+}
+.electronic-videos2 .item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 14px;
+}
+.electronic-videos2 .item img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
 
 
 
@@ -818,5 +930,24 @@ a{
         justify-content:center;
         gap: 20px;
     }
-
+    .video-slider1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 87%;
+    }
+    .video-slider1 section{
+        max-width: 100%;
+        padding: 20px;
+    }
+    .video-slider2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 87%;
+    }
+    .video-slider2 section{
+        max-width: 100%;
+        padding: 20px;
+    }
 }

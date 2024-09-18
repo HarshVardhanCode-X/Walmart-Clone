@@ -4,6 +4,7 @@ import OwlCarousel from 'react-owl-carousel';
 import { DiNancy } from 'react-icons/di';
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
+import { MdPadding } from 'react-icons/md';
 
 
 
@@ -85,6 +86,42 @@ const slider3= {
   mobile: {
     breakpoint: { max: 464, min: 0 },
     items: 2,
+    slidesToSlide: 1
+  }
+};
+
+const video_slider = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items:4,
+    slidesToSlide: 1 
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+    slidesToSlide: 1
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    slidesToSlide: 1
+  }
+};
+
+const socialMedia= {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items:3,
+    slidesToSlide: 1 
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+    slidesToSlide: 1
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
     slidesToSlide: 1
   }
 };
@@ -1089,10 +1126,111 @@ const slider3= {
       <div className='hori-line1'>
         <hr/>
       </div>
-      
-      <div><h1>Videos Here!</h1></div>
 
-      <div className='hori-line1'>
+      
+      <main className='video-slider1'>
+        <section>
+          <div className='electronic-text1'>
+            <h2>Featured in videos</h2>
+          </div>
+          <div className='electronic-text2'>
+            <p>See what creators are sharing</p>
+          </div>
+
+          <div className='electronic-videos'>
+
+              <Carousel className='video1-class' responsive={video_slider} swipeable={true}
+                        draggable={true} autoPlay={true} infinite={true}
+                        autoPlaySpeed={2000} autoplayHoverPause={true}
+                        mouseDrag={true} autoWidth={true}>
+              
+              <div class='item'>
+                <div className='owl-image'>
+                  <video src='./videos/video1.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
+                </div>
+                <div className='video-text'>
+                  <h4>$191.51</h4>
+                  <p>Linon Galena 2-Drawer Nightstand, Navy,<br/>Size: 25.25 inch Large X 18 inch D</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                  <video src='./videos/video2.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
+                </div>
+                <div className='video-text'>
+                  <h4>$191.51</h4>
+                  <p>Linon Galena 2-Drawer Nightstand, Navy,<br/>Size: 25.25 inch Large X 18 inch D</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                  <video src='./videos/video3.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
+                </div>
+                <div className='video-text'>
+                  <h4>$191.51</h4>
+                  <p>Linon Galena 2-Drawer Nightstand, Navy,<br/>Size: 25.25 inch Large X 18 inch D</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                  <video src='./videos/video4.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
+                </div>
+                <div className='video-text'>
+                  <h4>$191.51</h4>
+                  <p>Linon Galena 2-Drawer Nightstand, Navy,<br/>Size: 25.25 inch Large X 18 inch D</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                  <video src='./videos/video5.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
+                </div>
+                <div className='video-text'>
+                  <h4>$191.51</h4>
+                  <p>Linon Galena 2-Drawer Nightstand, Navy,<br/>Size: 25.25 inch Large X 18 inch D</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                  <video src='./videos/video6.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
+                </div>
+                <div className='video-text'>
+                  <h4>$191.51</h4>
+                  <p>Linon Galena 2-Drawer Nightstand, Navy,<br/>Size: 25.25 inch Large X 18 inch D</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                  <video src='./videos/video7.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
+                </div>
+                <div className='video-text'>
+                  <h4>$191.51</h4>
+                  <p>Linon Galena 2-Drawer Nightstand, Navy,<br/>Size: 25.25 inch Large X 18 inch D</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                  <video src='./videos/video8.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
+                </div>
+                <div className='video-text'>
+                  <h4>$191.51</h4>
+                  <p>Linon Galena 2-Drawer Nightstand, Navy,<br/>Size: 25.25 inch Large X 18 inch D</p>
+                </div>
+              </div>
+
+              </Carousel>
+
+          </div>
+        </section>
+      </main>
+
+      <div className='hori-line1' style={{padding:'40px 20px'}}>
         <hr/>
       </div>
 
@@ -1298,9 +1436,79 @@ const slider3= {
         <hr/>
       </div>
       
-      <div><h1>Videos Here!</h1></div>
+      <main className='video-slider2'>
+        <section>
+          <div className='electronic-text1'>
+            <h2>Trending on social media</h2>
+            <p><a href='#'>View all</a></p>
+          </div>
+          <div className='electronic-text2'>
+            <p>Shop creator faves</p>
+          </div>
 
-      <div className='hori-line1'>
+          <div className='electronic-videos2'>
+
+              <Carousel responsive={socialMedia} swipeable={true}
+                        draggable={true} autoPlay={true} infinite={true}
+                        autoPlaySpeed={2000} autoplayHoverPause={true}
+                        mouseDrag={true} autoWidth={true}>
+              
+              <div class='item'>
+                <div className='owl-image'>
+                  <img src='./images/media8.jpg' alt='cash-hand'></img>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                  <img src='./images/media1.jpg' alt='cash-hand'></img>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                  <img src='./images/media2.jpg' alt='cash-hand'></img>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                  <img src='./images/media3.jpg' alt='cash-hand'></img>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                  <img src='./images/media4.jpg' alt='cash-hand'></img>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                  <img src='./images/media5.jpg' alt='cash-hand'></img>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                  <img src='./images/media6.jpg' alt='cash-hand'></img>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+                  <img src='./images/media7.jpg' alt='cash-hand'></img>
+                </div>
+              </div>
+
+
+              </Carousel>
+
+          </div>
+        </section>
+      </main>
+
+      <div className='hori-line1' style={{padding:'40px 20px'}}>
         <hr/>
       </div>
 
@@ -1311,8 +1519,8 @@ const slider3= {
           <div className='collage3-part1'>
             <div className='candel'>
               <div className='candel-text'>
-                <p>Fall Vibes</p>
-                <p className='heading'>Feels like home</p>
+                <p>Feast your eyes</p>
+                <p className='heading'>Master the art of<br/>the tablescape</p>
                 <button>Shop now</button>
               </div>
               <div className='candel-image'>
@@ -1324,9 +1532,9 @@ const slider3= {
           <div className='collage3-part2'>
             <div className='desk'>
               <div className='desk-text'>
-                <p>Fall Vibes</p>
-                <p className='heading'>Feels like home</p>
-                <p>Shop now</p>
+                <p className='text'>TV stands</p>
+                <p className='heading'>Anchor your<br/>space</p>
+                <p className='text1'>Shop now</p>
               </div>
               <div className='desk-image'>
                 <img src='./images/desk.jpg' alt='cash-hand'></img>
@@ -1336,9 +1544,8 @@ const slider3= {
             <div className='below-desk'>
               <div className='tv'>
                 <div className='tv-text'>
-                  <p>Fall Vibes</p>
-                  <p className='heading'>Feels like home</p>
-                  <p>Shop now</p>
+                  <p className='heading'>Opt for the big<br/>screen</p>
+                  <p className='text1'>Shop TVs</p>
                 </div>
                 <div className='tv-image'>
                   <img src='./images/tv.jpg' alt='cash-hand'></img>
@@ -1347,9 +1554,8 @@ const slider3= {
 
               <div className='airfry'>
                 <div className='airfry-text'>
-                  <p>Fall Vibes</p>
-                  <p className='heading'>Feels like home</p>
-                  <p>Shop now</p>
+                  <p className='heading'>Crunch-time<br/>applications</p>
+                  <p className='text1'>Shop now</p>
                 </div>
                 <div className='airfry-image'>
                   <img src='./images/airfry.jpg' alt='cash-hand'></img>
@@ -1361,9 +1567,9 @@ const slider3= {
           <div className='collage3-part3'>
             <div className='liquor'>
               <div className='liquor-text'>
-                <p>Fall Vibes</p>
-                <p className='heading'>Feels like home</p>
-                <p>Shop now</p>
+                <p className='text'>Host happy hour</p>
+                <p className='heading'>Mix, mingle & pour</p>
+                <p className='text1'>Shop barware</p>
               </div>
               <div className='liquor-image'>
                 <img src='./images/liquor.jpg' alt='cash-hand'></img>
@@ -1380,11 +1586,11 @@ const slider3= {
       <main className='slider8'>
         <section>
           <div className='electronic-text1'>
-            <h2>Walk this way</h2>
+            <h2>Let's raise the bar</h2>
             <p><a href='#'>View all</a></p>
           </div>
           <div className='electronic-text2'>
-            <p>The Shoe Edit has it all.</p>
+            <p>Top-shelf shakers & more.</p>
           </div>
 
           <div className='electronic-images'>
@@ -1396,7 +1602,7 @@ const slider3= {
               
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/bar1.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1407,7 +1613,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot2.webp' alt='cash-hand'></img>
+                <img src='./images/bar2.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1418,7 +1624,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot3.webp' alt='cash-hand'></img>
+                <img src='./images/bar3.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1429,7 +1635,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot4.webp' alt='cash-hand'></img>
+                <img src='./images/bar4.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1440,7 +1646,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/bar5.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1451,7 +1657,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/bar6.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1462,7 +1668,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/bar7.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1473,7 +1679,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/bar8.png' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1484,7 +1690,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/bar9.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1495,7 +1701,7 @@ const slider3= {
 
               <div class='item'>
                 <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
+                <img src='./images/bar10.webp' alt='cash-hand'></img>
                 </div>
                 <div className='owl-text'>
                 <h5>$27.98</h5>
@@ -1504,60 +1710,6 @@ const slider3= {
                 </div>
               </div>
 
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/boot2.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women'<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
               </Carousel>
 
           </div>
