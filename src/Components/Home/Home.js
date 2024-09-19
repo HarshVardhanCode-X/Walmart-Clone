@@ -1207,7 +1207,7 @@ const socialMedia= {
         </section>
       </main>
 
-      <div className='hori-line1' style={{padding:'40px 20px'}}>
+      <div className='hori-line2'>
         <hr/>
       </div>
 
