@@ -6,7 +6,7 @@ import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 import { MdPadding } from 'react-icons/md';
 import { PiToggleRight } from "react-icons/pi";
-
+import HoverVideoPlayer from 'react-hover-video-player';
 
 
 
@@ -1123,7 +1123,35 @@ const socialMedia= {
               
               <div class='item'>
                 <div className='owl-image'>
-                  <video src='./videos/video1.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
+                
+                  <HoverVideoPlayer
+                    videoSrc="./videos/video1.mp4"
+                    loadingOverlay={
+                      <div className="loading-overlay">
+                        <div className="loading-spinner" />
+                      </div>
+                    }
+                  />
+          
+                </div>
+                <div className='video-text'>
+                  <h4>$190001.51</h4>
+                  <p>Linon Galena 2-Drawer Nightstand, Navy,<br/>Size: 25.25 inch Large X 18 inch D</p>
+                </div>
+              </div>
+
+              <div class='item'>
+                <div className='owl-image'>
+
+                <HoverVideoPlayer
+                    videoSrc="./videos/video2.mp4"
+                    loadingOverlay={
+                      <div className="loading-overlay">
+                        <div className="loading-spinner" />
+                      </div>
+                    }
+                  />
+
                 </div>
                 <div className='video-text'>
                   <h4>$191.51</h4>
@@ -1133,7 +1161,16 @@ const socialMedia= {
 
               <div class='item'>
                 <div className='owl-image'>
-                  <video src='./videos/video2.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
+                  
+                  <HoverVideoPlayer
+                    videoSrc="./videos/video3.mp4"
+                    loadingOverlay={
+                      <div className="loading-overlay">
+                        <div className="loading-spinner" />
+                      </div>
+                    }
+                  />
+
                 </div>
                 <div className='video-text'>
                   <h4>$191.51</h4>
@@ -1143,7 +1180,16 @@ const socialMedia= {
 
               <div class='item'>
                 <div className='owl-image'>
-                  <video src='./videos/video3.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
+                  
+                  <HoverVideoPlayer
+                    videoSrc="./videos/video4.mp4"
+                    loadingOverlay={
+                      <div className="loading-overlay">
+                        <div className="loading-spinner" />
+                      </div>
+                    }
+                  />
+
                 </div>
                 <div className='video-text'>
                   <h4>$191.51</h4>
@@ -1153,7 +1199,16 @@ const socialMedia= {
 
               <div class='item'>
                 <div className='owl-image'>
-                  <video src='./videos/video4.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
+                  
+                  <HoverVideoPlayer
+                    videoSrc="./videos/video5.mp4"
+                    loadingOverlay={
+                      <div className="loading-overlay">
+                        <div className="loading-spinner" />
+                      </div>
+                    }
+                  />
+
                 </div>
                 <div className='video-text'>
                   <h4>$191.51</h4>
@@ -1163,7 +1218,16 @@ const socialMedia= {
 
               <div class='item'>
                 <div className='owl-image'>
-                  <video src='./videos/video5.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
+                  
+                  <HoverVideoPlayer
+                    videoSrc="./videos/video6.mp4"
+                    loadingOverlay={
+                      <div className="loading-overlay">
+                        <div className="loading-spinner" />
+                      </div>
+                    }
+                  />
+
                 </div>
                 <div className='video-text'>
                   <h4>$191.51</h4>
@@ -1173,7 +1237,16 @@ const socialMedia= {
 
               <div class='item'>
                 <div className='owl-image'>
-                  <video src='./videos/video6.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
+                  
+                  <HoverVideoPlayer
+                    videoSrc="./videos/video7.mp4"
+                    loadingOverlay={
+                      <div className="loading-overlay">
+                        <div className="loading-spinner" />
+                      </div>
+                    }
+                  />
+
                 </div>
                 <div className='video-text'>
                   <h4>$191.51</h4>
@@ -1183,17 +1256,16 @@ const socialMedia= {
 
               <div class='item'>
                 <div className='owl-image'>
-                  <video src='./videos/video7.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
-                </div>
-                <div className='video-text'>
-                  <h4>$191.51</h4>
-                  <p>Linon Galena 2-Drawer Nightstand, Navy,<br/>Size: 25.25 inch Large X 18 inch D</p>
-                </div>
-              </div>
+                  
+                  <HoverVideoPlayer
+                    videoSrc="./videos/video8.mp4"
+                    loadingOverlay={
+                      <div className="loading-overlay">
+                        <div className="loading-spinner" />
+                      </div>
+                    }
+                  />
 
-              <div class='item'>
-                <div className='owl-image'>
-                  <video src='./videos/video8.mp4' alt='cash-hand' controls autoPlay={true} muted loop></video>
                 </div>
                 <div className='video-text'>
                   <h4>$191.51</h4>
