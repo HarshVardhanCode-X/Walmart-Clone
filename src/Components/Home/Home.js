@@ -4,9 +4,11 @@ import OwlCarousel from 'react-owl-carousel';
 import { DiNancy } from 'react-icons/di';
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
-import { MdPadding } from 'react-icons/md';
+import { MdDescription, MdPadding } from 'react-icons/md';
 import { PiToggleRight } from "react-icons/pi";
 import HoverVideoPlayer from 'react-hover-video-player';
+import { useNavigate } from 'react-router-dom';
+import data from '../Data/data';
 
 
 
@@ -103,6 +105,11 @@ const socialMedia= {
   }
 };
 
+const products= data.product8;
+
+
+
+const navigate=useNavigate();
 
 
   return (
@@ -1649,115 +1656,21 @@ const socialMedia= {
                         autoPlaySpeed={2000} autoplayHoverPause={true}
                         mouseDrag={true} autoWidth={true}>
               
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/bar1.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
+              {products.map((ele,i)=>{
+                return(
+                  <div class='item' key={i}>
+                  <div className='owl-image'>
+                  <img src={ele?.image} alt='cash-hand'></img>
+                  </div>
+                  <div className='owl-text'>
+                  <h5>${ele?.price}</h5>
+                  <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                  <button onClick={()=>navigate("/product-details",{state:ele})}>Options</button>
+                  </div>
+                  </div>
+                )
+              })}
 
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/bar2.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/bar3.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/bar4.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/bar5.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/bar6.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/bar7.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/bar8.png' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/bar9.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
-
-              <div class='item'>
-                <div className='owl-image'>
-                <img src='./images/bar10.webp' alt='cash-hand'></img>
-                </div>
-                <div className='owl-text'>
-                <h5>$27.98</h5>
-                <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
-                <button>Options</button>
-                </div>
-              </div>
 
               </Carousel>
 

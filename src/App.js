@@ -7,6 +7,7 @@ import Contact from './Components/Contact/Contact';
 import 'owl.carousel/dist/assets/owl.carousel.css'; 
 import 'owl.carousel/dist/assets/owl.theme.default.css'; 
 import Login from './Components/Login/login'
+import SingleProduct from './Components/Product/SingleProduct';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
@@ -18,6 +19,7 @@ function App() {
                 <Route path='/' element={<><Header/><Home/></>} />
                 <Route path='/contact-us' element={<><Header/><Contact/></>}/>
                 <Route path='/Login' element={<><Login/></>}/>
+                <Route path='/product-details' element={<><Header/><SingleProduct/></>}/>
             </Routes>
         </BrowserRouter>
         </div>
