@@ -17,9 +17,9 @@ function SingleProduct() {
         
         <section className='product-wrapper'>
 
-          <div className='product-images'>
-            <div>
-              <img src={state?.image}/>
+          <div className='product-image'>
+            <div className='product-image-div'>
+              <img src={state?.bigimage}/>
             </div>
           </div>
 

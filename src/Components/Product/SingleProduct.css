@@ -1,0 +1,27 @@
+.product-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.product-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.product-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.product-image-div{
+    height: 640px;
+}
+.product-image .product-image-div img{
+    width: 640px;
+    height: 640px;
+    object-fit: contain;
+}
