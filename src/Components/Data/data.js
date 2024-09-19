@@ -3,10 +3,11 @@ export default{
             {
               id:1,
               image:"./images/bar1.webp",
-              price: 100,
-              description:"Glass",
-              title:"Heading",
-              category:"table",
+              price:16.87,
+              description1:"Thyme & Table 4-Piece Scalloped",
+              description2:"Stemless Wine Glass Set",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
               rating:"5",
               aboutitem:[{
                 item:""
@@ -21,10 +22,11 @@ export default{
             {
               id:2,
               image:"./images/bar2.webp",
-              price: 100,
-              description:"Glass",
-              title:"Heading",
-              category:"table",
+              price:5.97,
+              description1:"Thyme & Table Stainless Steel",
+              description2:"Cocktail Stirrer Spoon",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
               rating:"5",
               aboutitem:[{
                 item:""
@@ -39,10 +41,11 @@ export default{
             {
               id:3,
               image:"./images/bar3.webp",
-              price: 100,
-              description:"Glass",
-              title:"Heading",
-              category:"table",
+              price: 19.98,
+              description1:"Thyme & Table 4-Piece Stainless",
+              description2:"Steel Gold Bar Set",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
               rating:"5",
               aboutitem:[{
                 item:""
@@ -57,10 +60,11 @@ export default{
             {
               id:4,
               image:"./images/bar4.webp",
-              price: 100,
-              description:"Glass",
-              title:"Heading",
-              category:"table",
+              price:5.46,
+              description1:"Thyme & Table 7oz Gold Rim",
+              description2:"Martini Glass",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
               rating:"5",
               aboutitem:[{
                 item:""
@@ -76,9 +80,10 @@ export default{
               id:5,
               image:"./images/bar5.webp",
               price: 100,
-              description:"Glass",
-              title:"Heading",
-              category:"table",
+              description1:"Thyme & Table Carafe with Rubber",
+              description2:"Wood Stopper",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
               rating:"5",
               aboutitem:[{
                 item:""
@@ -93,10 +98,11 @@ export default{
             {
               id:6,
               image:"./images/bar6.webp",
-              price: 100,
-              description:"Glass",
-              title:"Heading",
-              category:"table",
+              price:5.97,
+              description1:"Thyme & Table Gold Double",
+              description2:"Sided 2oz Jigger",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
               rating:"5",
               aboutitem:[{
                 item:""
@@ -111,10 +117,11 @@ export default{
             {
               id:7,
               image:"./images/bar7.webp",
-              price: 100,
-              description:"Glass",
-              title:"Heading",
-              category:"table",
+              price:6.87,
+              description1:"Thyme & Table Garden Clear",
+              description2:"Diamond-Cut Shot Glass",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
               rating:"5",
               aboutitem:[{
                 item:""
@@ -129,10 +136,11 @@ export default{
             {
               id:8,
               image:"./images/bar8.png",
-              price: 100,
-              description:"Glass",
-              title:"Heading",
-              category:"table",
+              price:12.92,
+              description1:"Thyme & Table Paris Hilton 2",
+              description2:"Piece Wine Set Corkscrew",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
               rating:"5",
               aboutitem:[{
                 item:""
@@ -147,10 +155,11 @@ export default{
             {
               id:9,
               image:"./images/bar9.webp",
-              price: 100,
-              description:"Glass",
-              title:"Heading",
-              category:"table",
+              price:12.98,
+              description1:"Thyme & Table Stainless Steel",
+              description2:"Wine Chiller",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
               rating:"5",
               aboutitem:[{
                 item:""
@@ -165,10 +174,11 @@ export default{
             {
               id:10,
               image:"./images/bar10.webp",
-              price: 100,
-              description:"Glass",
-              title:"Heading",
-              category:"table",
+              price:6.97,
+              description1:"Thyme & Table 4-Piece Wood",
+              description2:"and Stone Coaster Set",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
               rating:"5",
               aboutitem:[{
                 item:""

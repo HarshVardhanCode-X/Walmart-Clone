@@ -1664,7 +1664,7 @@ const navigate=useNavigate();
                   </div>
                   <div className='owl-text'>
                   <h5>${ele?.price}</h5>
-                  <p>No Boundaries Women's<br/>Buckle Moto Boots</p>
+                  <p>{ele?.description1}<br/>{ele?.description2}</p>
                   <button onClick={()=>navigate("/product-details",{state:ele})}>Options</button>
                   </div>
                   </div>

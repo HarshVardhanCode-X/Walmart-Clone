@@ -6,7 +6,10 @@
 .mainheader{
     width: 100%;
     height: auto;
-    position: fixed;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 10;
 }
 
@@ -293,7 +296,7 @@
 
 
 .bottom-header {
-    background-color: #F2F8FD;
+    background-color: rgba( 242,248,253, 0.9);
     display: flex;
     padding: 15px 23px;
     align-items: center;
