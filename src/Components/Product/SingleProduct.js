@@ -1,25 +1,121 @@
-import React from 'react'
+import React, { useCallback, useState } from 'react'
 import { useLocation } from 'react-router-dom';
 import { MdOutlineStarBorderPurple500 } from "react-icons/md";
 import { GiReturnArrow } from "react-icons/gi";
 import { FaInfoCircle } from "react-icons/fa";
-
+import Zoom from 'react-medium-image-zoom'
+import { Controlled as ControlledZoom } from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 import './SingleProduct.css'
+import Carousel from 'react-multi-carousel';
 
 
 function SingleProduct() {
 
-    const {state}=useLocation();
-    
+  const { state } = useLocation();
+
+  const [isZoomed, setIsZoomed] = useState(false)
+
+  const handleZoomChange = useCallback(shouldZoom => {
+    setIsZoomed(shouldZoom)
+  }, [])
+
+  const productImg = [
+    {
+      image: state?.smallimage1,
+      isActve: false
+    },
+    {
+      image: state?.smallimage2,
+      isActve: false
+    },
+    {
+      image: state?.smallimage3,
+      isActve: false
+    },
+    {
+      image: state?.smallimage4,
+      isActve: false
+    },
+    {
+      image: state?.smallimage5,
+      isActve: false
+    }
+  ]
+
+
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 1,
+      slidesToSlide: 1
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1,
+      slidesToSlide: 1
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1
+    }
+  };
   return (
     <>
       <main className='product-container'>
-        
+
         <section className='product-wrapper'>
 
-          <div className='product-image'>
-            <div className='product-image-div'>
-              <img src={state?.bigimage}/>
+          <div className='product-small-image'>
+            <div className='product-small-image-div'>
+              <img src={state?.smallimage1} />
+            </div>
+
+            <div className='product-small-image-div'>
+              <img src={state?.smallimage2} />
+            </div>
+
+            <div className='product-small-image-div'>
+              <img src={state?.smallimage3} />
+            </div>
+
+            <div className='product-small-image-div'>
+              <img src={state?.smallimage4} />
+            </div>
+
+            <div className='product-small-image-div'>
+              <img src={state?.smallimage5} />
+            </div>
+          </div>
+
+          <div className='product-big-image'>
+            <div className='product-big-image-div'>
+              <div className='electronic-images'>
+                <Carousel responsive={responsive} swipeable={true}
+                  draggable={true} autoPlay={true} infinite={true}
+                  autoPlaySpeed={2000} autoplayHoverPause={true}
+                  mouseDrag={true} autoWidth={true}>
+
+                  {productImg.map((ele, i) => {
+                    return (
+                      <div class='item' key={i}>
+                      
+                      <ControlledZoom isZoomed={isZoomed} onZoomChange={handleZoomChange}>
+                            <img
+                              alt="That Wanaka Tree, New Zealand by Laura Smetsers"
+                              src={ele?.image}
+                              width="500"
+                            />
+                        </ControlledZoom>
+
+                      </div>
+                    )
+                  })}
+
+
+                </Carousel>
+              </div>
             </div>
           </div>
 
@@ -45,12 +141,12 @@ function SingleProduct() {
               </div>
 
               <div>
-                <MdOutlineStarBorderPurple500/><MdOutlineStarBorderPurple500/><MdOutlineStarBorderPurple500/><MdOutlineStarBorderPurple500/><MdOutlineStarBorderPurple500/>
+                <MdOutlineStarBorderPurple500 /><MdOutlineStarBorderPurple500 /><MdOutlineStarBorderPurple500 /><MdOutlineStarBorderPurple500 /><MdOutlineStarBorderPurple500 />
                 <p>{state?.rating}</p>
               </div>
 
               <div>
-                <p><GiReturnArrow/> Free 90-day returns</p>
+                <p><GiReturnArrow /> Free 90-day returns</p>
               </div>
 
               <div>
@@ -58,7 +154,7 @@ function SingleProduct() {
               </div>
 
               <div>
-                <p>Price when purchased online <FaInfoCircle/></p>
+                <p>Price when purchased online <FaInfoCircle /></p>
               </div>
 
               <div>
@@ -105,7 +201,7 @@ function SingleProduct() {
               </div>
 
               <div>
-                <p><GiReturnArrow/>Free 90-day returns</p>
+                <p><GiReturnArrow />Free 90-day returns</p>
                 <p>Details</p>
                 <p>Sold and shipped by Walmart.com</p>
               </div>
@@ -116,7 +212,26 @@ function SingleProduct() {
           </div>
 
         </section>
+
       </main>
+      <div className='electronic-images'>
+        <Carousel responsive={responsive} swipeable={true}
+          draggable={true} infinite={true}
+      
+          mouseDrag={true} autoWidth={true}>
+
+          {productImg.map((ele, i) => {
+            return (
+              <div className='item'>
+              <Zoom>
+                  <img src={ele?.image} alt='cash-hand' />
+             </Zoom></div>
+            )
+          })}
+
+
+        </Carousel>
+      </div>
     </>
   )
 }
