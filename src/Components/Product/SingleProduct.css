@@ -1,43 +1,171 @@
-.product-container{
+.main-single-product-div {
     display: flex;
+    flex-direction: column;
     width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-.product-wrapper{
-    width: 100%;
-    display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.product-small-image{
-    /* width: 100%; */
+.biggest-single-product-div {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+}
+
+.single-product-div1 .product-small-image {
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px
+    /* gap: 20px; */
 }
-.product-small-image-div{
-    width:auto;
+
+.single-product-div1 .product-small-image-div {
+    width: auto;
 }
-.product-small-image-div img{
-    width:100px;
+
+.single-product-div1 .product-small-image-div img {
+    width: 110px;
     height: auto;
     object-fit: contain;
+    border-radius: 7px;
 }
-.product-big-image{
-    height: auto;
+
+.single-product-div2 {
+    flex-shrink: 0;
+    width: 45%;
+    min-width: 300px;
+}
+.single-product-div2 .single-item img{
+    width: auto;
+    height: 640px;
+    object-fit: contain;
+}
+
+.single-product-div3 {
+    padding: 0 20px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
-.product-big-image-div{
-    height: 640px;
+.single-product-div3 .product-rate{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
-.product-big-image-div img{
-    width: 640px;
-    height: 640px;
-    object-fit: contain;
+.single-product-div3 .product-rate .product-rate-A{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 6px;
+}
+.product-rate-A .product-rate1{
+    width: 100%;
+    border: 1px solid rgb(173, 173, 173);
+    color: #0071DC;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.product-rate-A .product-rate2 .product-rateA12{
+    border-radius: 7px;
+    border: 1px solid rgb(173, 173, 173);
+    font-size: 12px;
+    padding: 3px 6px;
+    font-weight: bold;
+    background-color: #002D58;
+    color: white;
+}
+.product-rate-A .product-rate2 .product-rateA22{
+    color: #8A767C;
+    font-size: 13px;
+    padding: 3px 6px;
+}
+.product-rate-A .product-rate3{
+    color: #464772;
+    text-decoration: underline;
+    font-size: 16px;
+}
+.product-rate-A .product-rate3:hover{
+    color: #1069bc;
+    cursor:pointer;
+    text-decoration:none;
+}
+.product-rate-A .product-rate4{
+    font-size: 12.5px;
+}
+.product-rate-A .product-rate5{
+    display: flex;
+    gap: 3px;
+}
+.product-rate-A .product-rate5 p{
+    font-size: 13.5px;
+}
+.product-rate-A .product-rate6{
+    padding: 20px 0;
+    font-size: 13.3px;
+    font-weight: bold;
+}
+.product-rate-A .product-rate7{
+    color: #2E2F32;
+    font-size: 19px;
+    padding: 4px 0;
+}
+.product-rate-A .product-rate8{
+    font-size: 12px;
+}
+.product-rate-A .product-rate9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0071DC;
+    color: white;
+    border-radius: 21px;
+    padding: 11px 10px;
+    font-size: 14px;
+    width: 240px;
+    margin: 20px 0;
+}
+.product-rate-A .product-rate9:hover{
+    cursor: pointer;
+    background-color: #024e95;
+}
+
+.single-product-div3 .product-rate .product-rate-B{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 6px;
+    background-color: #F8F8F8;
+    border-radius: 8px;
+    padding: 10px;
+}
+.product-rate-B .product-rate10{
+    color: #2E2F32;
+    font-size: 17.5px;
+    font-weight: bold;
+}
+.product-rate-B .product-rate11{
+    color: #2E2F32;
+    font-size: 17.5px;
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+    gap: 12px;
+    padding: 8px 0;
+}
+.product-rate-B .product-rate11 p{
+    font-size: 14px;
+    color: #4e4f50;
+}
+.product-rate-B .product-rate11 input[type=checkbox]{
+    transform: scale(1.5);
 }
