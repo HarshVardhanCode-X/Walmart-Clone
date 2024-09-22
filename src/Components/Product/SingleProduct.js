@@ -9,6 +9,8 @@ import 'react-medium-image-zoom/dist/styles.css'
 import './SingleProduct.css'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { TbBrandWalmart } from "react-icons/tb";
+
 
 
 function SingleProduct() {
@@ -179,34 +181,36 @@ function SingleProduct() {
                 </div>
 
                 <div className='product-rate12'>
-                  <div>
+                  <div className='shipping-method1'> 
                     <img src="./images/singleproduct2.png"></img>
-                    <p>shipping</p>
-                    <p>Arrives sep 22</p>
-                    <p>Order within 9 hr 20 min</p>
+                    <p  className='shipping-method1-head'>Shipping</p>
+                    <p  className='shipping-method1-para1'>Arrives sep 22</p>
+                    <p className='shipping-method1-para'>Order within 9 hr 20</p>
+                    <p className='shipping-method1-para'>min</p>
                   </div>
 
-                  <div className='product-rate13'>
+                  <div className='shipping-method2'>
                     <img src="./images/singleproduct3.png"></img>
-                    <p>Pickup</p>
-                    <p>Check nearby</p>
+                    <p className='shipping-method2-head'>Pickup</p>
+                    <p className='shipping-method2-para'>Check nearby</p>
                   </div>
 
-                  <div className='product-rate14'>
+                  <div className='shipping-method3'>
                     <img src="./images/singleproduct4.png"></img>
-                    <p>Delivery</p>
-                    <p>Not available</p>
+                    <p className='shipping-method3-head'>Delivery</p>
+                    <p className='shipping-method3-para'>Not available</p>
                   </div>
                 </div>
 
-                <div className='product-rate15'>
-                  <p>Delivert to Sacramento, 95829</p>
+                <div className='product-rate13'>
+                  <p>Delivery to</p>
+                  <p className='product-rate13a'>Sacramento, 95829</p>
                 </div>
 
-                <div className='product-rate16'>
-                  <p><GiReturnArrow />Free 90-day returns</p>
-                  <p>Details</p>
-                  <p>Sold and shipped by Walmart.com</p>
+                <div className='product-rate14'>
+                  <p className='product-rate14a'><GiReturnArrow color='blue'/> Free 90-day returns</p>
+                  <p className='product-rate14b'>Details</p>
+                  <p><TbBrandWalmart/> Sold and shipped by Walmart.com</p>
                 </div>
 
               </div>
@@ -217,6 +221,7 @@ function SingleProduct() {
           </div>
 
         </section>
+        
       </div>
 
 
