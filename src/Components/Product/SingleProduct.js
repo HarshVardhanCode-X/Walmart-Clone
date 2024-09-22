@@ -3,9 +3,6 @@ import { useLocation } from 'react-router-dom';
 import { MdOutlineStarBorderPurple500 } from "react-icons/md";
 import { GiReturnArrow } from "react-icons/gi";
 import { FaInfoCircle } from "react-icons/fa";
-import Zoom from 'react-medium-image-zoom'
-import { Controlled as ControlledZoom } from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
 import './SingleProduct.css'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
