@@ -74,26 +74,13 @@ function SingleProduct() {
 
           <div className='single-product-div1'>
             <div className='product-small-image'>
-              <div className='product-small-image-div'>
-                <img src={state?.smallimage1} />
-              </div>
-
-              <div className='product-small-image-div'>
-                <img src={state?.smallimage2} />
-              </div>
-
-              <div className='product-small-image-div'>
-                <img src={state?.smallimage3} />
-              </div>
-
-              <div className='product-small-image-div'>
-                <img src={state?.smallimage4} />
-              </div>
-
-              <div className='product-small-image-div'>
-                <img src={state?.smallimage5} />
-              </div>
-            </div>
+            {productImg.map((ele)=>{
+              return ( <div className='product-small-image-div'>
+                <img src={ele?.image} />
+              </div>)
+            })}
+             
+           </div>
           </div>
 
 
@@ -112,9 +99,7 @@ function SingleProduct() {
                   )
                 })}
 
-
               </Carousel>
-              
           </div>
 
 
