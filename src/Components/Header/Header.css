@@ -354,6 +354,22 @@
 
 /* Media Query */
 
+@media all and (max-width: 1401px){
+    .top-header .search-bar input {
+        border: none;
+        width: 550px;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px){
+    .top-header .search-bar input {
+        border: none;
+        width: 620px;
+        padding: 5px;
+    }
+}
+
 @media (min-width: 1920px){
     .top-header .search-bar input {
         border: none;

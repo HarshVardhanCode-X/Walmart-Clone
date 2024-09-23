@@ -13,7 +13,6 @@
     align-items: flex-start;
     justify-content: space-between;
     padding: 70px 30px;
-    height: 200vh;
 }
 
 .single-product-div1 .product-small-image {
@@ -34,6 +33,10 @@
     object-fit: contain;
     border-radius: 7px;
 }
+.single-product-div1 .product-small-image-div img:hover{
+    cursor: pointer;
+    border: 2px solid blue;
+}
 
 .single-product-div2 {
     flex-shrink: 0;
@@ -44,8 +47,6 @@
     width: 100%;
     height: 640px;
     object-fit: contain;
-    border-radius: 20px;
-    border-radius: 8px;
 }
 
 .single-product-div3 {
@@ -295,6 +296,68 @@
 .product-rate-B .product-rate14 .product-rate14b:hover{
     text-decoration: none;
     color: rgb(70, 70, 214);
+    cursor: pointer;
+}
+
+.single-product-div3 .product-rate .product-rate-C{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 14px 0;
+}
+.product-rate-C .product-rate-CA{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 14px;
+}
+.product-rate-C .product-rate-CA .product-rate16{
+    font-weight: bold;
+    font-size: 14px;
+}
+.product-rate-C .product-rate-CA .product-rate17{
+    font-size: 14px;
+    text-decoration: underline;
+}
+.product-rate-C .product-rate-CA .product-rate17:hover{
+    color: rgb(79, 79, 251);
+    text-decoration: none;
+    cursor: pointer;
+}
+.product-rate-C .product-rate-CB{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 14px;
+    padding-top: 20px;
+}
+.product-rate-C .product-rate-CB .product-rate18{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+}
+.product-rate-C .product-rate-CB .product-rate18 p{
+    font-size: 14px;
+    text-decoration: underline;
+}
+.product-rate-C .product-rate-CB .product-rate19{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+}
+.product-rate-C .product-rate-CB .product-rate19 p{
+    font-size: 14px;
+    text-decoration: underline;
+}
+.product-rate-C .product-rate-CB .product-rate18 p:hover, .product-rate-C .product-rate-CB .product-rate19 p:hover{
+    color: rgb(79, 79, 251);
+    text-decoration: none;
     cursor: pointer;
 }
 

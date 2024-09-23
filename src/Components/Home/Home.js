@@ -1,10 +1,7 @@
 import React from 'react'
 import './Home.css'
-import OwlCarousel from 'react-owl-carousel';
-import { DiNancy } from 'react-icons/di';
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
-import { MdDescription, MdPadding } from 'react-icons/md';
 import { PiToggleRight } from "react-icons/pi";
 import HoverVideoPlayer from 'react-hover-video-player';
 import { useNavigate } from 'react-router-dom';

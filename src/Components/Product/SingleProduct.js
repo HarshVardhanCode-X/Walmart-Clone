@@ -10,6 +10,9 @@ import 'react-multi-carousel/lib/styles.css';
 import { TbBrandWalmart } from "react-icons/tb";
 import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
 import InnerImageZoom from 'react-inner-image-zoom';
+import { IoIosHeartEmpty } from "react-icons/io";
+import { ImGift } from "react-icons/im";
+
 
 
 
@@ -52,17 +55,17 @@ function SingleProduct() {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 1,
-      slidesToSlide: 1 // optional, default to 1.
+      slidesToSlide: 1
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 1,
-      slidesToSlide: 1 // optional, default to 1.
+      slidesToSlide: 1
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
-      slidesToSlide: 1 // optional, default to 1.
+      slidesToSlide: 1 
     }
   };
 
@@ -74,32 +77,32 @@ function SingleProduct() {
 
           <div className='single-product-div1'>
             <div className='product-small-image'>
-            {productImg.map((ele)=>{
-              return ( <div className='product-small-image-div'>
-                <img src={ele?.image} />
-              </div>)
-            })}
-             
-           </div>
+              {productImg.map((ele) => {
+                return (<div className='product-small-image-div'>
+                  <img src={ele?.image} />
+                </div>)
+              })}
+
+            </div>
           </div>
 
 
           <div className='single-product-div2'>
-              <Carousel responsive={responsive} swipeable={true}
-                draggable={true} infinite={true}
-                mouseDrag={true} >
+            <Carousel responsive={responsive} swipeable={true}
+              draggable={true} infinite={true}
+              mouseDrag={true} >
 
-                {productImg.map((ele, i) => {
-                  return (
-                    <div className='single-item'>
-                      
-                        <InnerImageZoom src={ele?.image} alt='cash-hand' zoomScale="1.4" zoomType='hover'/>
-                    
-                    </div>
-                  )
-                })}
+              {productImg.map((ele, i) => {
+                return (
+                  <div className='single-item'>
 
-              </Carousel>
+                    <InnerImageZoom src={ele?.image} alt='cash-hand' zoomScale="1.4" zoomType='hover' />
+
+                  </div>
+                )
+              })}
+
+            </Carousel>
           </div>
 
 
@@ -127,12 +130,12 @@ function SingleProduct() {
                 </div>
 
                 <div className='product-rate5'>
-                  <MdOutlineStarBorderPurple500 color='yellow'/><MdOutlineStarBorderPurple500 color='yellow'/><MdOutlineStarBorderPurple500 color='yellow'/><MdOutlineStarBorderPurple500 color='yellow'/><MdOutlineStarBorderPurple500 color='yellow'/>
+                  <MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' />
                   <p>( {state?.rating}.0 ) | 24 ratings</p>
                 </div>
 
                 <div className='product-rate6'>
-                  <p><GiReturnArrow color='blue'/> Free 90-day returns</p>
+                  <p><GiReturnArrow color='blue' /> Free 90-day returns</p>
                 </div>
 
                 <div className='product-rate7'>
@@ -158,19 +161,19 @@ function SingleProduct() {
                 <div className='product-rate11'>
                   <input type="checkbox"></input>
                   <div>
-                    <div style={{display:"flex",alignItems:"flex-start",justifyContent:"center",gap:"5px"}}>
-                    <p> I want shipping & delivery savings with </p>
-                    <img src="./images/singleproduct1.svg" style={{width:"68px"}}></img>
+                    <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "center", gap: "5px" }}>
+                      <p> I want shipping & delivery savings with </p>
+                      <img src="./images/singleproduct1.svg" style={{ width: "68px" }}></img>
                     </div>
-                    <p style={{fontSize:"12.5px",color: "#787a7b"}}>You get 30 days free! Choose a plan at checkout.</p>
+                    <p style={{ fontSize: "12.5px", color: "#787a7b" }}>You get 30 days free! Choose a plan at checkout.</p>
                   </div>
                 </div>
 
                 <div className='product-rate12'>
-                  <div className='shipping-method1'> 
+                  <div className='shipping-method1'>
                     <img src="./images/singleproduct2.png"></img>
-                    <p  className='shipping-method1-head'>Shipping</p>
-                    <p  className='shipping-method1-para1'>Arrives sep 22</p>
+                    <p className='shipping-method1-head'>Shipping</p>
+                    <p className='shipping-method1-para1'>Arrives sep 22</p>
                     <p className='shipping-method1-para'>Order within 9 hr 20</p>
                     <p className='shipping-method1-para'>min</p>
                   </div>
@@ -194,9 +197,35 @@ function SingleProduct() {
                 </div>
 
                 <div className='product-rate14'>
-                  <p className='product-rate14a'><GiReturnArrow color='blue'/> Free 90-day returns</p>
+                  <p className='product-rate14a'><GiReturnArrow color='blue' /> Free 90-day returns</p>
                   <p className='product-rate14b'>Details</p>
-                  <p><TbBrandWalmart/> Sold and shipped by Walmart.com</p>
+                  <p><TbBrandWalmart /> Sold and shipped by Walmart.com</p>
+                </div>
+
+              </div>
+
+              <div className='product-rate-C'>
+                <div className='product-rate-CA'>
+                  <div className='product-rate15'>
+                    <img src='./images/gifting.svg' />
+                  </div>
+                  <div className='product-rate16'>
+                    <p>This item is gift eligible</p>
+                  </div>
+                  <div className='product-rate17'>
+                    <p>Learn more</p>
+                  </div>
+                </div>
+
+                <div className='product-rate-CB'>
+                  <div className='product-rate18'>
+                    <div><IoIosHeartEmpty /></div>
+                    <p>Add to list</p>
+                  </div>
+                  <div className='product-rate19'>
+                    <div><ImGift /></div>
+                    <p>Add to registry</p>
+                  </div>
                 </div>
 
               </div>
@@ -205,13 +234,13 @@ function SingleProduct() {
 
           </div>
 
-          <div className='single-product-slide1'>52145151dsfnkjdsbnfkjd
-                
+          <div className='single-product-slide1'>
+              HI!
           </div>
 
 
         </section>
-        
+
       </div>
 
 
