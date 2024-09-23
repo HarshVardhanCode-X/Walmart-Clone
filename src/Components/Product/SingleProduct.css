@@ -9,9 +9,11 @@
 .biggest-single-product-div {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
     padding: 70px 30px;
+    height: 200vh;
 }
 
 .single-product-div1 .product-small-image {
