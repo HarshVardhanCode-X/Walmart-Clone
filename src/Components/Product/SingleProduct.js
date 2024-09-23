@@ -205,7 +205,9 @@ function SingleProduct() {
 
           </div>
 
-          <div>52145151dsfnkjdsbnfkjd</div>
+          <div className='single-product-slide1'>52145151dsfnkjdsbnfkjd
+                
+          </div>
 
 
         </section>
