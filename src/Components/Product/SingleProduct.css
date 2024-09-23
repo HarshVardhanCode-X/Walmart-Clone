@@ -38,11 +38,12 @@
     width: 45%;
     min-width: 300px;
 }
-.single-product-div2 .single-item img{
+.single-product-div2 .single-item InnerImageZoom{
     width: 100%;
     height: 640px;
     object-fit: contain;
     border-radius: 20px;
+    border-radius: 8px;
 }
 
 .single-product-div3 {

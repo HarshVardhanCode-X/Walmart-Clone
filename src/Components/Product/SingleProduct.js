@@ -3,13 +3,14 @@ import { useLocation } from 'react-router-dom';
 import { MdOutlineStarBorderPurple500 } from "react-icons/md";
 import { GiReturnArrow } from "react-icons/gi";
 import { FaInfoCircle } from "react-icons/fa";
-import Zoom from 'react-medium-image-zoom'
-import { Controlled as ControlledZoom } from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import './SingleProduct.css'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { TbBrandWalmart } from "react-icons/tb";
+import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
+import InnerImageZoom from 'react-inner-image-zoom';
+
 
 
 
@@ -105,7 +106,7 @@ function SingleProduct() {
                   return (
                     <div className='single-item'>
                       
-                        <img src={ele?.image} alt='cash-hand' />
+                        <InnerImageZoom src={ele?.image} alt='cash-hand' zoomScale="1.4" zoomType='hover'/>
                     
                     </div>
                   )
