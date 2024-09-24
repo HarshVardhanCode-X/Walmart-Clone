@@ -14,6 +14,8 @@ import { IoIosHeartEmpty } from "react-icons/io";
 import { ImGift } from "react-icons/im";
 import data from '../Data/data';
 import { useNavigate } from 'react-router-dom';
+import { CiCircleInfo } from "react-icons/ci";
+
 
 
 
@@ -83,8 +85,8 @@ function SingleProduct() {
   const singleResponsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items:4,
-      slidesToSlide: 1 
+      items: 4,
+      slidesToSlide: 1
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -120,9 +122,11 @@ function SingleProduct() {
   }
 
 
-  const products= data.singleProductslider1;
+  const products = data.singleProductslider1;
 
-  const navigate=useNavigate();
+  const about = data.product8;
+
+  const navigate = useNavigate();
 
 
   return (
@@ -290,7 +294,7 @@ function SingleProduct() {
 
           </div>
 
-          <div className='single-product-slide1'>
+          <div className='single-product-slide1'>hi
 
             <Carousel responsive={singleResponsive} swipeable={true}
               draggable={true} autoPlay={true} infinite={true}
@@ -314,6 +318,93 @@ function SingleProduct() {
 
 
             </Carousel>
+
+          </div>
+
+          <div className='single-product-about'>
+
+            <div className='single-product-about-wrapper'>
+
+              <div className='single-product-about1'>
+                <h3>About this item</h3>
+              </div>
+
+              <hr />
+
+              <div className='single-product-about2'>
+
+                <div className='single-product-about21'>
+                  <p>Product details</p>
+                </div>
+                <div className='single-product-about22'>
+                  <h5>{state?.details}</h5>
+                </div>
+                <div className='single-product-about23'>
+                  <ul>
+                    <li>{state?.list1}</li>
+                    <li>{state?.list2}</li>
+                    <li>{state?.list3}</li>
+                    <li>{state?.list4}</li>
+                  </ul>
+                </div>
+                <div className='single-product-about24'>
+                  <div><CiCircleInfo/></div>
+                  <div className='single-product-about241'><p>We aim to show you accurate product information.</p></div>
+                  <div className='single-product-about242'><p>See our disclaimer</p></div>
+                </div>
+
+              </div>
+
+              <hr/>
+
+              <div className='single-product-about3'>
+
+                <div className='single-product-about31'>
+                  <p>Specifications</p>
+                </div>
+
+                <div className='single-product-about32'>
+                  <h4>Features</h4>
+                  <p>Professional</p>
+                </div>
+
+                <div className='single-product-about33'>
+                  <h4>Brand</h4>
+                  <p>{state?.category}</p>
+                </div>
+
+                <div className='single-product-about34'>
+                  <h4>Manufacturer Part Number</h4>
+                  <p>{state?.partNumber}</p>
+                </div>
+
+                <div className='single-product-about35'>
+                  <h4>Manufacturer</h4>
+                  <p>PAN HUB</p>
+                </div>
+
+                <div className='single-product-about36'>
+                  <p>More details</p>
+                </div>
+
+              </div>
+
+              <hr/>
+
+              <div className='single-product-about4'>
+
+                <div className='single-product-about41'>
+                  <p>Warnings</p>
+                </div>
+
+                <div className='single-product-about42'>
+                  <h4>State Chemical Disclosure</h4>
+                  <p>None</p>
+                </div>                
+
+              </div>
+
+            </div>
 
           </div>
 

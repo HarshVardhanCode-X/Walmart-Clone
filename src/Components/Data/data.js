@@ -14,13 +14,18 @@ export default{
               category:"Thyme & Table",
               title:"Complete your purchase",
               rating:"5",
+              list1: "Thyme & Table 4-Piece Scalloped Stemless Wine Glass Set",
+              list2: "Made of stainless steel",
+              list3: "Ideal for at-home bars",
+              list4: "Hand wash recommended",
+              partNumber: "TT1017R",
               aboutitem:[{
                 item:""
               },
             {
               item:""
             }],
-              details:"details here"
+              details:"Introducing the Thyme & Table Stemless Wine Glass Set, the essential tool for any home bar or professional bartender. Crafted with elegance and functionality in mind, this sleek jigger boasts a luxurious gold finish that adds a touch of sophistication to any cocktail-making experience. With dual-sided measurements of 2 ounces and 1 ounce, precision pouring becomes effortless, ensuring consistent and perfectly balanced cocktails every time. Whether you're shaking up martinis, mixing mojitos, or stirring old fashioneds, this versatile jigger is designed to meet all your mixology needs. Elevate your cocktail game and impress guests with the Thyme & TableStemless Wine Glass Set – the ultimate accessory for mastering the art of mixology."
           
             },
           
@@ -38,13 +43,19 @@ export default{
               category:"Thyme & Table",
               title:"Complete your purchase",
               rating:"5",
+              list1: "Thyme & Table Stainless Steel Cocktail Stirrer Spoon",
+              list2: "Made of stainless steel",
+              list3: "Ideal for at-home bars",
+              list4: "Hand wash recommended",
+              partNumber: "NT5879O",
               aboutitem:[{
                 item:""
               },
             {
               item:""
             }],
-              details:"details here"
+              details:"Introducing the Thyme & Table Gold Cocktail Stirrer Spoon, the essential tool for any home bar or professional bartender. Crafted with elegance and functionality in mind, this sleek jigger boasts a luxurious gold finish that adds a touch of sophistication to any cocktail-making experience. With dual-sided measurements of 2 ounces and 1 ounce, precision pouring becomes effortless, ensuring consistent and perfectly balanced cocktails every time. Whether you're shaking up martinis, mixing mojitos, or stirring old fashioneds, this versatile jigger is designed to meet all your mixology needs. Elevate your cocktail game and impress guests with the Thyme & Table Gold Cocktail Stirrer Spoon – the ultimate accessory for mastering the art of mixology."
+
           
             },
           
@@ -62,13 +73,19 @@ export default{
               category:"Thyme & Table",
               title:"Complete your purchase",
               rating:"5",
+              list1: "Thyme & Table 4-Piece Stainless Steel Gold Bar Set",
+              list2: "Made of stainless steel",
+              list3: "Ideal for at-home bars",
+              list4: "Hand wash recommended",
+              partNumber: "KT7894Q",
               aboutitem:[{
                 item:""
               },
             {
               item:""
             }],
-              details:"details here"
+              details:"Introducing the Thyme & Table Gold Steel Gold Bar Set, the essential tool for any home bar or professional bartender. Crafted with elegance and functionality in mind, this sleek jigger boasts a luxurious gold finish that adds a touch of sophistication to any cocktail-making experience. With dual-sided measurements of 2 ounces and 1 ounce, precision pouring becomes effortless, ensuring consistent and perfectly balanced cocktails every time. Whether you're shaking up martinis, mixing mojitos, or stirring old fashioneds, this versatile jigger is designed to meet all your mixology needs. Elevate your cocktail game and impress guests with the Thyme & Table Gold Steel Gold Bar Set – the ultimate accessory for mastering the art of mixology."
+
           
             },
           
@@ -86,13 +103,19 @@ export default{
               category:"Thyme & Table",
               title:"Complete your purchase",
               rating:"5",
+              list1: "Thyme & Table 7oz Gold Rim Martini Glass",
+              list2: "Made of stainless steel",
+              list3: "Ideal for at-home bars",
+              list4: "Hand wash recommended",
+              partNumber: "QA1287U",
               aboutitem:[{
                 item:""
               },
             {
               item:""
             }],
-              details:"details here"
+              details:"Introducing the Thyme & Table Gold Martini Glass, the essential tool for any home bar or professional bartender. Crafted with elegance and functionality in mind, this sleek jigger boasts a luxurious gold finish that adds a touch of sophistication to any cocktail-making experience. With dual-sided measurements of 2 ounces and 1 ounce, precision pouring becomes effortless, ensuring consistent and perfectly balanced cocktails every time. Whether you're shaking up martinis, mixing mojitos, or stirring old fashioneds, this versatile jigger is designed to meet all your mixology needs. Elevate your cocktail game and impress guests with the Thyme & Table Gold Martini Glass – the ultimate accessory for mastering the art of mixology."
+
           
             },
           
@@ -110,13 +133,19 @@ export default{
               category:"Thyme & Table",
               title:"Complete your purchase",
               rating:"5",
+              list1: "Thyme & Table Carafe with Rubber Wood Stopper",
+              list2: "Made of stainless steel",
+              list3: "Ideal for at-home bars",
+              list4: "Hand wash recommended",
+              partNumber: "XY4711O",
               aboutitem:[{
                 item:""
               },
             {
               item:""
             }],
-              details:"details here"
+              details:"Introducing the Thyme & Table Wood Stopper, the essential tool for any home bar or professional bartender. Crafted with elegance and functionality in mind, this sleek jigger boasts a luxurious gold finish that adds a touch of sophistication to any cocktail-making experience. With dual-sided measurements of 2 ounces and 1 ounce, precision pouring becomes effortless, ensuring consistent and perfectly balanced cocktails every time. Whether you're shaking up martinis, mixing mojitos, or stirring old fashioneds, this versatile jigger is designed to meet all your mixology needs. Elevate your cocktail game and impress guests with the Thyme & Table Wood Stopper – the ultimate accessory for mastering the art of mixology."
+
           
             },
           
@@ -134,13 +163,19 @@ export default{
               category:"Thyme & Table",
               title:"Complete your purchase",
               rating:"5",
+              list1: "Thyme & Table Gold Double Sided 2oz Jigger",
+              list2: "Made of stainless steel",
+              list3: "Ideal for at-home bars",
+              list4: "Hand wash recommended",
+              partNumber: "PB6985K",
               aboutitem:[{
                 item:""
               },
             {
               item:""
             }],
-              details:"details here"
+              details:"Introducing the Thyme & Table Gold Double-Sided 2oz & 1oz Jigger, the essential tool for any home bar or professional bartender. Crafted with elegance and functionality in mind, this sleek jigger boasts a luxurious gold finish that adds a touch of sophistication to any cocktail-making experience. With dual-sided measurements of 2 ounces and 1 ounce, precision pouring becomes effortless, ensuring consistent and perfectly balanced cocktails every time. Whether you're shaking up martinis, mixing mojitos, or stirring old fashioneds, this versatile jigger is designed to meet all your mixology needs. Elevate your cocktail game and impress guests with the Thyme & Table Gold Double-Sided Jigger – the ultimate accessory for mastering the art of mixology."
+
           
             },
           
@@ -158,13 +193,19 @@ export default{
               category:"Thyme & Table",
               title:"Complete your purchase",
               rating:"5",
+              list1: "Thyme & Table Garden Clear Diamond-Cut Shot Glass",
+              list2: "Made of stainless steel",
+              list3: "Ideal for at-home bars",
+              list4: "Hand wash recommended",
+              partNumber: "RI8512L",
               aboutitem:[{
                 item:""
               },
             {
               item:""
             }],
-              details:"details here"
+              details:"Introducing the Thyme & Table Diamond-Cut Shot Glass, the essential tool for any home bar or professional bartender. Crafted with elegance and functionality in mind, this sleek jigger boasts a luxurious gold finish that adds a touch of sophistication to any cocktail-making experience. With dual-sided measurements of 2 ounces and 1 ounce, precision pouring becomes effortless, ensuring consistent and perfectly balanced cocktails every time. Whether you're shaking up martinis, mixing mojitos, or stirring old fashioneds, this versatile jigger is designed to meet all your mixology needs. Elevate your cocktail game and impress guests with the Thyme & Table Diamond-Cut Shot Glass – the ultimate accessory for mastering the art of mixology."
+
           
             },
           
@@ -182,13 +223,19 @@ export default{
               category:"Thyme & Table",
               title:"Complete your purchase",
               rating:"5",
+              list1: "Thyme & Table Paris Hilton 2 Piece Wine Set Corkscrew",
+              list2: "Made of stainless steel",
+              list3: "Ideal for at-home bars",
+              list4: "Hand wash recommended",
+              partNumber: "JY5858B",
               aboutitem:[{
                 item:""
               },
             {
               item:""
             }],
-              details:"details here"
+              details:"Introducing the Thyme & Table Paris Hilton 2 Piece Wine Set Corkscrew, the essential tool for any home bar or professional bartender. Crafted with elegance and functionality in mind, this sleek jigger boasts a luxurious gold finish that adds a touch of sophistication to any cocktail-making experience. With dual-sided measurements of 2 ounces and 1 ounce, precision pouring becomes effortless, ensuring consistent and perfectly balanced cocktails every time. Whether you're shaking up martinis, mixing mojitos, or stirring old fashioneds, this versatile jigger is designed to meet all your mixology needs. Elevate your cocktail game and impress guests with the Thyme & Thyme & Table Paris Hilton 2 Piece Wine Set Corkscrew – the ultimate accessory for mastering the art of mixology."
+
           
             },
           
@@ -206,13 +253,19 @@ export default{
               category:"Thyme & Table",
               title:"Complete your purchase",
               rating:"5",
+              list1: "Thyme & Table Stainless Steel Wine Chiller",
+              list2: "Made of stainless steel",
+              list3: "Ideal for at-home bars",
+              list4: "Hand wash recommended",
+              partNumber: "NH4510M",
               aboutitem:[{
                 item:""
               },
             {
               item:""
             }],
-              details:"details here"
+              details:"Introducing the Thyme & Table Gold Double-Sided 2oz & 1oz Jigger, the essential tool for any home bar or professional bartender. Crafted with elegance and functionality in mind, this sleek jigger boasts a luxurious gold finish that adds a touch of sophistication to any cocktail-making experience. With dual-sided measurements of 2 ounces and 1 ounce, precision pouring becomes effortless, ensuring consistent and perfectly balanced cocktails every time. Whether you're shaking up martinis, mixing mojitos, or stirring old fashioneds, this versatile jigger is designed to meet all your mixology needs. Elevate your cocktail game and impress guests with the Thyme & Table Gold Double-Sided Jigger – the ultimate accessory for mastering the art of mixology."
+
           
             },
           
@@ -230,13 +283,19 @@ export default{
               category:"Thyme & Table",
               title:"Complete your purchase",
               rating:"5",
+              list1: "Thyme & Table 4-Piece Wood and Stone Coaster Set",
+              list2: "Made of stainless steel",
+              list3: "Ideal for at-home bars",
+              list4: "Hand wash recommended",
+              partNumber: "AS4578P",
               aboutitem:[{
                 item:""
               },
             {
               item:""
             }],
-              details:"details here"
+              details:"Introducing the Thyme & Table Gold Double-Sided 2oz & 1oz Jigger, the essential tool for any home bar or professional bartender. Crafted with elegance and functionality in mind, this sleek jigger boasts a luxurious gold finish that adds a touch of sophistication to any cocktail-making experience. With dual-sided measurements of 2 ounces and 1 ounce, precision pouring becomes effortless, ensuring consistent and perfectly balanced cocktails every time. Whether you're shaking up martinis, mixing mojitos, or stirring old fashioneds, this versatile jigger is designed to meet all your mixology needs. Elevate your cocktail game and impress guests with the Thyme & Table Gold Double-Sided Jigger – the ultimate accessory for mastering the art of mixology."
+
           
             }
           

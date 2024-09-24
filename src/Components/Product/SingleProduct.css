@@ -58,6 +58,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 }
 .single-product-div3 .product-rate{
     width: 100%;
@@ -361,6 +362,8 @@
     cursor: pointer;
 }
 
+
+
 .single-product-slide1{
     width: 100%;
 }
@@ -396,4 +399,122 @@
 }
 .jigger-item .jigger-text button:hover{
     border: 2px solid rgb(35, 34, 34);
+}
+
+
+.single-product-about{
+    width: 100%;
+}
+.single-product-about{
+    max-width: 55%;
+    height: auto;
+    padding: 5px;
+    text-align: justify;
+    padding: 10px;
+}
+.single-product-about-wrapper{
+    width: 100%;
+    padding: 50px 0;
+}
+.single-product-about1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 35px 0;
+}
+.single-product-about2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 25px 0px;
+    padding-left: 20px;
+    gap: 20px;
+}
+.single-product-about2 .single-product-about21{
+    font-size: 15px;
+    color: rgb(86, 85, 85);
+}
+.single-product-about2 .single-product-about22{
+    color: rgb(80, 78, 78);
+    line-height: 20px;
+}
+.single-product-about2 .single-product-about23{
+    color: rgb(86, 85, 85);
+    padding-left: 30px;
+    font-size: 14.5px;
+}
+.single-product-about2 .single-product-about24{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.single-product-about2 .single-product-about24 .single-product-about241{
+    color: rgb(86, 85, 85);
+    font-size: 14px;
+    font-weight: bold;
+}
+.single-product-about2 .single-product-about24 .single-product-about242{
+    color: rgb(86, 85, 85);
+    font-size: 14px;
+    text-decoration: underline;
+}
+.single-product-about2 .single-product-about24 .single-product-about242:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(72, 72, 221);
+}
+.single-product-about3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 25px 0px;
+    padding-left: 20px;
+    gap: 20px;
+}
+.single-product-about3 .single-product-about31{
+    color: rgb(77, 75, 75);
+    font-size: 15px;
+}
+.single-product-about3 .single-product-about32 p, .single-product-about3 .single-product-about33 p, .single-product-about3 .single-product-about34 p, .single-product-about3 .single-product-about35 p{
+    color: rgb(86, 85, 85);
+    font-size: 15px;
+}
+.single-product-about3 .single-product-about36{
+    color: rgb(86, 85, 85);
+    font-size: 14.5px;
+    text-decoration: underline;
+}
+.single-product-about3 .single-product-about32 h4, .single-product-about3 .single-product-about33 h4, .single-product-about3 .single-product-about34 h4, .single-product-about3 .single-product-about35 h4{
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.single-product-about3 .single-product-about36:hover{
+    text-decoration: none;
+    color: rgb(72, 72, 221);
+    cursor: pointer;
+}
+.single-product-about4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 25px 0px;
+    padding-left: 20px;
+    gap: 20px;
+}
+.single-product-about4 .single-product-about41{
+    color: rgb(77, 75, 75);
+    font-size: 15px;
+}
+.single-product-about4 .single-product-about42 h4{
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.single-product-about4 .single-product-about42 p{
+    color: rgb(77, 75, 75);
+    font-size: 15px;
 }
