@@ -27,28 +27,38 @@ function SingleProduct() {
     setIsZoomed(shouldZoom)
   }, [])
 
-  const productImg = [
+  const [productImg,setProductImg] = useState([
     {
+      id:1,
       image: state?.smallimage1,
-      isActve: false
+      isActve: true,
+      value: 1
     },
     {
+      id:2,
       image: state?.smallimage2,
-      isActve: false
+      isActve: false,
+      value: 0
     },
     {
+      id:3,
       image: state?.smallimage3,
-      isActve: false
+      isActve: false,
+      value: 0
     },
     {
+      id:4,
       image: state?.smallimage4,
-      isActve: false
+      isActve: false,
+      value: 0
     },
     {
+      id:5,
       image: state?.smallimage5,
-      isActve: false
+      isActve: false,
+      value: 0
     }
-  ]
+  ])
 
 
   const responsive = {
@@ -69,6 +79,25 @@ function SingleProduct() {
     }
   };
 
+  function update(id){
+    const data=productImg.map((ele)=>{
+      if(ele.id==id){
+        return{
+          ...ele,
+          isActive:true,
+          value: 1
+        }
+      }else{
+        return{
+          ...ele,
+          isActive:false,
+          value: 0
+        }
+      }
+    })
+    setProductImg(data)
+  }
+
   return (
     <>
 
@@ -78,8 +107,8 @@ function SingleProduct() {
           <div className='single-product-div1'>
             <div className='product-small-image'>
               {productImg.map((ele) => {
-                return (<div className='product-small-image-div'>
-                  <img src={ele?.image} />
+                return (<div className='product-small-image-div' onClick={()=>update(ele.id)}>
+                  <img src={ele?.image} style={{border: ele.isActive && '2px solid blue'}} />
                 </div>)
               })}
 
@@ -92,9 +121,9 @@ function SingleProduct() {
               draggable={true} infinite={true}
               mouseDrag={true} >
 
-              {productImg.map((ele, i) => {
+              {JSON.parse(JSON.stringify(productImg)).sort((a,b)=> b.value - a.value).map((ele, i) => {
                 return (
-                  <div className='single-item'>
+                  <div className='single-item' id='${ele.id}'>
 
                     <InnerImageZoom src={ele?.image} alt='cash-hand' zoomScale="1.4" zoomType='hover' />
 
@@ -235,7 +264,7 @@ function SingleProduct() {
           </div>
 
           <div className='single-product-slide1'>
-              HI!
+              
           </div>
 
 
