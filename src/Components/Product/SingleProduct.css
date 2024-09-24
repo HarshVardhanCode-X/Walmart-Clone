@@ -364,3 +364,36 @@
 .single-product-slide1{
     width: 100%;
 }
+.single-product-slide1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 55%;
+    height: auto;
+    padding: 5px;
+}
+.single-product-slide1 .jigger-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.jigger-item .jigger-text{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+.jigger-item .jigger-text button{
+    padding: 7px 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid rgb(57, 57, 57);
+    background-color: white;
+}
+.jigger-item .jigger-text button:hover{
+    border: 2px solid rgb(35, 34, 34);
+}

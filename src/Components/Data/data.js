@@ -240,6 +240,105 @@ export default{
           
             }
           
+          ],
+
+
+    singleProductslider1:[
+            {
+              id:1,
+              image:"./images/jigger1.webp",
+              price:17.87,
+              description1:"Jigger for bartending,",
+              description2:"Jigger Japanese Jigger",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
+              rating:"5"
+            },
+
+            {
+              id:2,
+              image:"./images/jigger2.webp",
+              price:14.87,
+              description1:"Jigger for bartending,",
+              description2:"Jigger Japanese Jigger",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
+              rating:"5"
+          
+            },
+
+            {
+              id:3,
+              image:"./images/jigger3.webp",
+              price:16.87,
+              description1:"Jigger for bartending,",
+              description2:"Jigger Japanese Jigger",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
+              rating:"5"
+          
+            },
+
+            {
+              id:4,
+              image:"./images/jigger4.webp",
+              price:21.98,
+              description1:"Jigger for bartending,",
+              description2:"Jigger Japanese Jigger",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
+              rating:"5"
+          
+            },
+
+            {
+              id:5,
+              image:"./images/jigger5.webp",
+              price:35.69,
+              description1:"Jigger for bartending,",
+              description2:"Jigger Japanese Jigger",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
+              rating:"5"
+          
+            },
+
+            {
+              id:6,
+              image:"./images/jigger6.webp",
+              price:8.87,
+              description1:"Jigger for bartending,",
+              description2:"Jigger Japanese Jigger",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
+              rating:"5"
+          
+            },
+
+            {
+              id:7,
+              image:"./images/jigger7.webp",
+              price:19.57,
+              description1:"Jigger for bartending,",
+              description2:"Jigger Japanese Jigger",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
+              rating:"5"
+          
+            },
+
+            {
+              id:8,
+              image:"./images/jigger8.webp",
+              price:6.87,
+              description1:"Jigger for bartending,",
+              description2:"Jigger Japanese Jigger",
+              category:"Thyme & Table",
+              title:"Complete your purchase",
+              rating:"5"
+          
+            }
+
           ]
 
 }

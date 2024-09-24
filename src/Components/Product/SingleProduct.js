@@ -12,6 +12,8 @@ import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
 import InnerImageZoom from 'react-inner-image-zoom';
 import { IoIosHeartEmpty } from "react-icons/io";
 import { ImGift } from "react-icons/im";
+import data from '../Data/data';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -27,39 +29,38 @@ function SingleProduct() {
     setIsZoomed(shouldZoom)
   }, [])
 
-  const [productImg,setProductImg] = useState([
+  const [productImg, setProductImg] = useState([
     {
-      id:1,
+      id: 1,
       image: state?.smallimage1,
       isActve: true,
       value: 1
     },
     {
-      id:2,
+      id: 2,
       image: state?.smallimage2,
       isActve: false,
       value: 0
     },
     {
-      id:3,
+      id: 3,
       image: state?.smallimage3,
       isActve: false,
       value: 0
     },
     {
-      id:4,
+      id: 4,
       image: state?.smallimage4,
       isActve: false,
       value: 0
     },
     {
-      id:5,
+      id: 5,
       image: state?.smallimage5,
       isActve: false,
       value: 0
     }
   ])
-
 
   const responsive = {
     desktop: {
@@ -75,28 +76,54 @@ function SingleProduct() {
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
-      slidesToSlide: 1 
+      slidesToSlide: 1
     }
   };
 
-  function update(id){
-    const data=productImg.map((ele)=>{
-      if(ele.id==id){
-        return{
+  const singleResponsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items:4,
+      slidesToSlide: 1 
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 1
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1
+    }
+  };
+
+
+
+  function update(id) {
+    const data = productImg.map((ele) => {
+      if (ele.id == id) {
+        return {
           ...ele,
-          isActive:true,
+          isActive: true,
           value: 1
         }
-      }else{
-        return{
+      } else {
+        return {
           ...ele,
-          isActive:false,
+          isActive: false,
           value: 0
         }
       }
     })
     setProductImg(data)
   }
+
+
+  const products= data.singleProductslider1;
+
+  const navigate=useNavigate();
+
 
   return (
     <>
@@ -107,8 +134,8 @@ function SingleProduct() {
           <div className='single-product-div1'>
             <div className='product-small-image'>
               {productImg.map((ele) => {
-                return (<div className='product-small-image-div' onClick={()=>update(ele.id)}>
-                  <img src={ele?.image} style={{border: ele.isActive && '2px solid blue'}} />
+                return (<div className='product-small-image-div' onClick={() => update(ele.id)}>
+                  <img src={ele?.image} style={{ border: ele.isActive && '2px solid blue' }} />
                 </div>)
               })}
 
@@ -121,7 +148,7 @@ function SingleProduct() {
               draggable={true} infinite={true}
               mouseDrag={true} >
 
-              {JSON.parse(JSON.stringify(productImg)).sort((a,b)=> b.value - a.value).map((ele, i) => {
+              {JSON.parse(JSON.stringify(productImg)).sort((a, b) => b.value - a.value).map((ele, i) => {
                 return (
                   <div className='single-item' id='${ele.id}'>
 
@@ -264,7 +291,30 @@ function SingleProduct() {
           </div>
 
           <div className='single-product-slide1'>
-              
+
+            <Carousel responsive={singleResponsive} swipeable={true}
+              draggable={true} autoPlay={true} infinite={true}
+              autoPlaySpeed={2000} autoplayHoverPause={true}
+              mouseDrag={true} autoWidth={true}>
+
+              {products.map((ele, i) => {
+                return (
+                  <div class='jigger-item' key={i}>
+                    <div className='jigger-image'>
+                      <img src={ele?.image} alt='cash-hand'></img>
+                    </div>
+                    <div className='jigger-text'>
+                      <h5>${ele?.price}</h5>
+                      <p>{ele?.description1}<br />{ele?.description2}</p>
+                      <button onClick={() => navigate("/product-details", { state: ele })}>Options</button>
+                    </div>
+                  </div>
+                )
+              })}
+
+
+            </Carousel>
+
           </div>
 
 
