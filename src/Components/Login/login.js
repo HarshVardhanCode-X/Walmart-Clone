@@ -1,9 +1,25 @@
-import React from 'react'
+import React, { useState } from "react";
 import './login.css'
 import { PiToggleRight } from "react-icons/pi";
 
+import { auth, provider } from "../../firebaseConfig";
+import { signInWithPopup, signOut } from "firebase/auth";
 
-function login() {
+
+function Login() {
+
+    const [user, setUser] = useState(null);
+    const signInWithGoogle = async () => {
+        try {
+            const result = await signInWithPopup(auth, provider);
+            setUser(result.user);
+            console.log("result",result);
+            
+        } catch (error) {
+            console.error("Error signing in with Google", error);
+        }
+    };
+
   return (
     <>
         <body className='login-body'>
@@ -35,7 +51,7 @@ function login() {
                         <input type="email" placeholder=''></input>
                     </div>
                     <div className='login-inside-div33'>
-                        <button>Continue</button>
+                        <button onClick={signInWithGoogle}>Continue</button>
                     </div>
                     <div className='login-inside-div44'>
                         <p>Securing your personal information is our priority.</p>
@@ -73,4 +89,4 @@ function login() {
   )
 }
 
-export default login
+export default Login
