@@ -19,6 +19,11 @@ export default {
       list3: "Ideal for at-home bars",
       list4: "Hand wash recommended",
       partNumber: "TT1017R",
+      star5: 40,
+      star4: 60,
+      star3: 0,
+      star2: 0,
+      star1: 0,
       aboutitem: [{
         item: ""
       },
@@ -48,6 +53,11 @@ export default {
       list3: "Ideal for at-home bars",
       list4: "Hand wash recommended",
       partNumber: "NT5879O",
+      star5: 42,
+      star4: 56,
+      star3: 0,
+      star2: 2,
+      star1: 0,
       aboutitem: [{
         item: ""
       },
@@ -78,6 +88,11 @@ export default {
       list3: "Ideal for at-home bars",
       list4: "Hand wash recommended",
       partNumber: "KT7894Q",
+      star5: 30,
+      star4: 69,
+      star3: 0,
+      star2: 0,
+      star1: 1,
       aboutitem: [{
         item: ""
       },
@@ -108,6 +123,11 @@ export default {
       list3: "Ideal for at-home bars",
       list4: "Hand wash recommended",
       partNumber: "QA1287U",
+      star5: 20,
+      star4: 10,
+      star3: 60,
+      star2: 8,
+      star1: 2,
       aboutitem: [{
         item: ""
       },
@@ -138,6 +158,11 @@ export default {
       list3: "Ideal for at-home bars",
       list4: "Hand wash recommended",
       partNumber: "XY4711O",
+      star5: 99,
+      star4: 0,
+      star3: 0,
+      star2: 0,
+      star1: 1,
       aboutitem: [{
         item: ""
       },
@@ -168,6 +193,11 @@ export default {
       list3: "Ideal for at-home bars",
       list4: "Hand wash recommended",
       partNumber: "PB6985K",
+      star5: 25,
+      star4: 15,
+      star3: 60,
+      star2: 0,
+      star1: 0,
       aboutitem: [{
         item: ""
       },
@@ -198,6 +228,11 @@ export default {
       list3: "Ideal for at-home bars",
       list4: "Hand wash recommended",
       partNumber: "RI8512L",
+      star5: 100,
+      star4: 0,
+      star3: 0,
+      star2: 0,
+      star1: 0,
       aboutitem: [{
         item: ""
       },
@@ -228,6 +263,11 @@ export default {
       list3: "Ideal for at-home bars",
       list4: "Hand wash recommended",
       partNumber: "JY5858B",
+      star5: 50,
+      star4: 39,
+      star3: 0,
+      star2: 9,
+      star1: 2,
       aboutitem: [{
         item: ""
       },
@@ -258,6 +298,11 @@ export default {
       list3: "Ideal for at-home bars",
       list4: "Hand wash recommended",
       partNumber: "NH4510M",
+      star5: 98,
+      star4: 0,
+      star3: 0,
+      star2: 1,
+      star1: 1,
       aboutitem: [{
         item: ""
       },
@@ -288,6 +333,11 @@ export default {
       list3: "Ideal for at-home bars",
       list4: "Hand wash recommended",
       partNumber: "AS4578P",
+      star5: 15,
+      star4: 20,
+      star3: 50,
+      star2: 5,
+      star1: 10,
       aboutitem: [{
         item: ""
       },
@@ -496,6 +546,103 @@ export default {
 
     }
 
+  ],
+
+  product9: [
+    {
+      id: 1,
+      image: "./images/lastp1.webp",
+      price: 12.87,
+      description1: "Jigger for bartending,",
+      description2: "Jigger Japanese Jigger",
+      category: "Thyme & Table",
+      title: "Complete your purchase",
+      rating: "5"
+    },
+
+    {
+      id: 2,
+      image: "./images/lastp2.webp",
+      price: 17.87,
+      description1: "Jigger for bartending,",
+      description2: "Jigger Japanese Jigger",
+      category: "Thyme & Table",
+      title: "Complete your purchase",
+      rating: "5"
+
+    },
+
+    {
+      id: 3,
+      image: "./images/lastp3.webp",
+      price: 100,
+      description1: "Jigger for bartending,",
+      description2: "Jigger Japanese Jigger",
+      category: "Thyme & Table",
+      title: "Complete your purchase",
+      rating: "5"
+
+    },
+
+    {
+      id: 4,
+      image: "./images/lastp4.webp",
+      price: 29.54,
+      description1: "Jigger for bartending,",
+      description2: "Jigger Japanese Jigger",
+      category: "Thyme & Table",
+      title: "Complete your purchase",
+      rating: "5"
+
+    },
+
+    {
+      id: 5,
+      image: "./images/lastp5.webp",
+      price: 55.23,
+      description1: "Jigger for bartending,",
+      description2: "Jigger Japanese Jigger",
+      category: "Thyme & Table",
+      title: "Complete your purchase",
+      rating: "5"
+
+    },
+
+    {
+      id: 6,
+      image: "./images/lastp6.webp",
+      price: 6.27,
+      description1: "Jigger for bartending,",
+      description2: "Jigger Japanese Jigger",
+      category: "Thyme & Table",
+      title: "Complete your purchase",
+      rating: "5"
+
+    },
+
+    {
+      id: 7,
+      image: "./images/lastp7.webp",
+      price: 29.57,
+      description1: "Jigger for bartending,",
+      description2: "Jigger Japanese Jigger",
+      category: "Thyme & Table",
+      title: "Complete your purchase",
+      rating: "5"
+
+    },
+
+    {
+      id: 8,
+      image: "./images/lastp8.webp",
+      price: 7.87,
+      description1: "Jigger for bartending,",
+      description2: "Jigger Japanese Jigger",
+      category: "Thyme & Table",
+      title: "Complete your purchase",
+      rating: "5"
+
+    }
   ]
 
 }

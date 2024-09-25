@@ -15,8 +15,8 @@ import { ImGift } from "react-icons/im";
 import data from '../Data/data';
 import { useNavigate } from 'react-router-dom';
 import { CiCircleInfo } from "react-icons/ci";
-
-
+import { IoMdStar } from "react-icons/io";
+import { PiToggleRight } from "react-icons/pi";
 
 
 
@@ -100,6 +100,24 @@ function SingleProduct() {
     }
   };
 
+  const lastResponsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 6,
+      slidesToSlide: 1
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 4,
+      slidesToSlide: 1
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 2,
+      slidesToSlide: 1
+    }
+  };
+
 
 
   function update(id) {
@@ -127,6 +145,8 @@ function SingleProduct() {
   const products2 = data.singleProductslider2;
 
   const about = data.product8;
+
+  const lastProducts = data.product9;
 
   const navigate = useNavigate();
 
@@ -297,7 +317,7 @@ function SingleProduct() {
           </div>
 
           <div className='single-product-slide1'>
-              
+
             <div class='jigger-heading'>
               <h2>Similar items you might like</h2>
               <p>Based on what customers bought</p>
@@ -355,14 +375,14 @@ function SingleProduct() {
                   </ul>
                 </div>
                 <div className='single-product-about24'>
-                  <div><CiCircleInfo/></div>
+                  <div><CiCircleInfo /></div>
                   <div className='single-product-about241'><p>We aim to show you accurate product information.</p></div>
                   <div className='single-product-about242'><p>See our disclaimer</p></div>
                 </div>
 
               </div>
 
-              <hr/>
+              <hr />
 
               <div className='single-product-about3'>
 
@@ -396,7 +416,7 @@ function SingleProduct() {
 
               </div>
 
-              <hr/>
+              <hr />
 
               <div className='single-product-about4'>
 
@@ -407,7 +427,7 @@ function SingleProduct() {
                 <div className='single-product-about42'>
                   <h4>State Chemical Disclosure</h4>
                   <p>None</p>
-                </div>                
+                </div>
 
               </div>
 
@@ -447,48 +467,235 @@ function SingleProduct() {
           </div>
 
           <div className='single-product-review'>
-            
-            <hr/>
 
-            <div>
+            <hr />
 
-              <div>
+            <div className='single-product-reviewA'>
+
+              <div className='single-product-reviewA1'>
                 <h2>Customer rating & reviews</h2>
               </div>
 
-              <div>
-                <div>
-                  <div><p>{state?.rating} out of 5</p></div>
-                </div>
-                <div>
-                  <div>
-                    <MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' />
+              <div className='single-product-reviewA2'>
+
+                <div className='single-product-review-wrap1'>
+                  <div className='single-product-review-wrap11'>
+                    <div><p>{state?.rating} out of 5</p></div>
                   </div>
-                  <div>
-                    <p>18 ratings | 18 reviews</p>
+                  <div className='single-product-review-wrap12'>
+                    <div>
+                      <MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' />
+                    </div>
+                    <div>
+                      <p>18 ratings | 18 reviews</p>
+                    </div>
+                  </div>
+                  <div className='single-product-review-wrap13'>
+                    <div>
+                      <p>How item rating is calculated</p>
+                    </div>
+                    <div>
+                      <CiCircleInfo />
+                    </div>
+                  </div>
+                  <div className='single-product-review-wrap14'>
+                    <p>View all reviews</p>
                   </div>
                 </div>
-                <div>
-                  <div>
-                    <p>How item rating is calculated</p>
+
+                <div className='single-product-review-wrap2'>
+                  <div className='single-product-review-wrap21'>
+                    <div>
+                      <p>5 stars</p>
+                    </div>
+                    <div>
+                      <input type='range' value={state?.star5}></input>
+                    </div>
+                    <div>
+                      <p>{state?.star5}%</p>
+                    </div>
                   </div>
-                  <div>
-                    <CiCircleInfo/>
+
+                  <div className='single-product-review-wrap22'>
+                    <div>
+                      <p>4 stars</p>
+                    </div>
+                    <div>
+                      <input type='range' value={state?.star4}></input>
+                    </div>
+                    <div>
+                      <p>{state?.star4}%</p>
+                    </div>
+                  </div>
+                  <div className='single-product-review-wrap23'>
+                    <div>
+                      <p>3 stars</p>
+                    </div>
+                    <div>
+                      <input type='range' value={state?.star3}></input>
+                    </div>
+                    <div>
+                      <p>{state?.star3}%</p>
+                    </div>
+                  </div>
+                  <div className='single-product-review-wrap24'>
+                    <div>
+                      <p>2 stars</p>
+                    </div>
+                    <div>
+                      <input type='range' value={state?.star2}></input>
+                    </div>
+                    <div>
+                      <p>{state?.star2}%</p>
+                    </div>
+                  </div>
+                  <div className='single-product-review-wrap25'>
+                    <div>
+                      <p>1 stars</p>
+                    </div>
+                    <div>
+                      <input type='range' value={state?.star1}></input>
+                    </div>
+                    <div>
+                      <p>{state?.star1}%</p>
+                    </div>
                   </div>
                 </div>
-                <div>
-                  <p>View all reviews</p>
-                </div>
-              
+
               </div>
 
             </div>
 
-            <hr/>
+            <hr />
+
           </div>
 
+          <div className='single-product-customer'>
+
+            <div className='single-product-customer-wrap'>
+
+              <div className='single-product-customer-head'>
+                <h4>Frequent Mentions</h4>
+              </div>
+
+              <div className='single-product-customerAB'>
+                <div className='single-product-customerA'>
+                  <div className='single-product-customerA1'>
+                    <div className='single-product-customerA11'>
+                      <div><IoMdStar /><IoMdStar /><IoMdStar /><IoMdStar /><IoMdStar /></div>
+                      <div><p>Verified Purchase</p></div>
+                      <div><CiCircleInfo /></div>
+                    </div>
+                    <div className='single-product-customerA12'>
+                      <p>9/19/2024</p>
+                    </div>
+                  </div>
+
+                  <div className='single-product-customerA2'>
+                    <div className='single-product-customerA21'>
+                      <h5>Great Quality</h5>
+                    </div>
+                    <div className='single-product-customerA22'>
+                      <p>
+                        My friends would also joke and ask if I was making a "cody" drink or a normal drink! I have a tendency to over pour. Now with my own jigger I don't make drink so strong people can't drink them. Thanks for saving all my friends from by bad drinks
+                      </p>
+                    </div>
+                    <div className='single-product-customerA23'>
+                      <p>Alexzandra</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='single-product-customerA'>
+                  <div className='single-product-customerA1'>
+                    <div className='single-product-customerA11'>
+                      <div><IoMdStar /><IoMdStar /><IoMdStar /><IoMdStar /><IoMdStar /></div>
+                      <div><p>Verified Purchase</p></div>
+                      <div><CiCircleInfo /></div>
+                    </div>
+                    <div className='single-product-customerA12'>
+                      <p>6/9/2024</p>
+                    </div>
+                  </div>
+
+                  <div className='single-product-customerA2'>
+                    <div className='single-product-customerA21'>
+                      <h5>Measure Cocktails Perfectly!</h5>
+                    </div>
+                    <div className='single-product-customerA22'>
+                      <p>
+                        This Jigger is a perfect tool to have to help you measure out the perfect amount of alcohol for cocktails. So you won't get to much or to little. Plus it's a pretty gold color too. It's durable and sturdy as well.
+                      </p>
+                    </div>
+                    <div className='single-product-customerA23'>
+                      <p>Chelsea</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
 
         </section>
+
+        <main className='slider8'>
+          <section>
+            <div className='electronic-text1'>
+              <h2>Popular items in this category</h2>
+              <p><a href='#'>View all</a></p>
+            </div>
+            <div className='electronic-text2'>
+              <p>Best selling items that customers love</p>
+            </div>
+
+            <div className='electronic-images-slider3'>
+
+              <Carousel responsive={lastResponsive} swipeable={true}
+                draggable={true} autoPlay={true} infinite={true}
+                autoPlaySpeed={2000} autoplayHoverPause={true}
+                mouseDrag={true} autoWidth={true}>
+
+                {lastProducts.map((ele, i) => {
+                  return (
+                    <div class='item' key={i}>
+                      <div className='owl-image'>
+                        <img src={ele?.image} alt='cash-hand'></img>
+                      </div>
+                      <div className='owl-text'>
+                        <h5>${ele?.price}</h5>
+                        <p>{ele?.description1}<br />{ele?.description2}</p>
+                        <button>Options</button>
+                      </div>
+                    </div>
+                  )
+                })}
+
+
+              </Carousel>
+
+            </div>
+          </section>
+        </main>
+
+        <footer className='login-footer-home'>
+            <div className='login-footer1-home'>
+                <ul>
+                    <li><a href='#'>Give feedback</a></li>
+                    <li><a href='#'>CA Privacy Rights</a></li>
+                    <li><a href='#'><PiToggleRight color='blue'/> Your Privacy Choices</a></li>
+                    <li><a href='#'>Notice at Collection</a></li>
+                    <li><a href='#'>Request My Personal Information</a></li>
+                    <li><a href='#'>Delete Account</a></li>
+                    <li><a href='#'>California Supply Chains Act</a></li>
+                </ul>
+            </div>
+
+            <div className='login-footer2-home'>
+                <p>© 2024 Walmart. All Rights Reserved.</p>
+            </div>
+        </footer>
 
       </div>
 
