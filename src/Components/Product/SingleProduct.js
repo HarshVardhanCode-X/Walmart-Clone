@@ -294,12 +294,12 @@ function SingleProduct() {
 
           </div>
 
-          <div className='single-product-slide1'>hi
+          <div className='single-product-slide1'>
 
             <Carousel responsive={singleResponsive} swipeable={true}
               draggable={true} autoPlay={true} infinite={true}
               autoPlaySpeed={2000} autoplayHoverPause={true}
-              mouseDrag={true} autoWidth={true}>
+              mouseDrag={true}>
 
               {products.map((ele, i) => {
                 return (
