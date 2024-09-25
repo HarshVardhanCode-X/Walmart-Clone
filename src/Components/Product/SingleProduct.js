@@ -124,6 +124,8 @@ function SingleProduct() {
 
   const products = data.singleProductslider1;
 
+  const products2 = data.singleProductslider2;
+
   const about = data.product8;
 
   const navigate = useNavigate();
@@ -295,6 +297,11 @@ function SingleProduct() {
           </div>
 
           <div className='single-product-slide1'>
+              
+            <div class='jigger-heading'>
+              <h2>Similar items you might like</h2>
+              <p>Based on what customers bought</p>
+            </div>
 
             <Carousel responsive={singleResponsive} swipeable={true}
               draggable={true} autoPlay={true} infinite={true}
@@ -406,6 +413,78 @@ function SingleProduct() {
 
             </div>
 
+          </div>
+
+          <div className='single-product-slide2'>
+
+            <div class='jigger-heading'>
+              <h2>Customers also considered</h2>
+            </div>
+
+            <Carousel responsive={singleResponsive} swipeable={true}
+              draggable={true} autoPlay={true} infinite={true}
+              autoPlaySpeed={2000} autoplayHoverPause={true}
+              mouseDrag={true}>
+
+              {products2.map((ele, i) => {
+                return (
+                  <div class='jigger-item' key={i}>
+                    <div className='jigger-image'>
+                      <img src={ele?.image} alt='cash-hand'></img>
+                    </div>
+                    <div className='jigger-text'>
+                      <h5>${ele?.price}</h5>
+                      <p>{ele?.description1}<br />{ele?.description2}</p>
+                      <button onClick={() => navigate("/product-details", { state: ele })}>Options</button>
+                    </div>
+                  </div>
+                )
+              })}
+
+
+            </Carousel>
+
+          </div>
+
+          <div className='single-product-review'>
+            
+            <hr/>
+
+            <div>
+
+              <div>
+                <h2>Customer rating & reviews</h2>
+              </div>
+
+              <div>
+                <div>
+                  <div><p>{state?.rating} out of 5</p></div>
+                </div>
+                <div>
+                  <div>
+                    <MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' /><MdOutlineStarBorderPurple500 color='yellow' />
+                  </div>
+                  <div>
+                    <p>18 ratings | 18 reviews</p>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <p>How item rating is calculated</p>
+                  </div>
+                  <div>
+                    <CiCircleInfo/>
+                  </div>
+                </div>
+                <div>
+                  <p>View all reviews</p>
+                </div>
+              
+              </div>
+
+            </div>
+
+            <hr/>
           </div>
 
 

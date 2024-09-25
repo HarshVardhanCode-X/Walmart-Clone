@@ -397,7 +397,18 @@
 .jigger-item .jigger-text button:hover{
     border: 2px solid rgb(35, 34, 34);
 }
-
+.jigger-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 5px;
+    margin-bottom: 6%;
+}
+.jigger-heading p{
+    font-size: 15px;
+    color: rgb(128, 127, 127);
+}
 
 .single-product-about{
     width: 100%;
@@ -514,4 +525,31 @@
 .single-product-about4 .single-product-about42 p{
     color: rgb(77, 75, 75);
     font-size: 15px;
+}
+
+.single-product-slide2{
+    width: 100%;
+}
+.single-product-slide2{
+    max-width: 55%;
+    height: auto;
+    padding: 5px;
+}
+.single-product-slide2 .jigger-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.single-product-review{
+    width: 100%;
+}
+.single-product-review{
+    max-width: 55%;
+    height: auto;
+    padding: 5px;
+    text-align: justify;
+    padding: 10px;
 }
