@@ -11,6 +11,7 @@ import SingleProduct from './Components/Product/SingleProduct';
 
 import { auth, provider } from "./firebaseConfig";
 import { signInWithPopup, signOut } from "firebase/auth";
+import Cart from "./Components/Cart/Cart";
 
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -45,6 +46,7 @@ function App() {
                     <Route path='/contact-us' element={<><Header /><Contact /></>} />
                     <Route path='/Login' element={<><Login /></>} />
                     <Route path='/product-details' element={<><Header /><SingleProduct /></>} />
+                    <Route path='/Cart' element={<><Header /><Cart /></>} />
                 </Routes>
             </BrowserRouter>
         </div>

@@ -59,12 +59,14 @@ function Header() {
             </div>
           </div>
 
-          <div className='cart-bar'>
-            <BsCart color='white' size={20} />
-            <div>
-              <p>$0.00</p>
+          <Link to='/Cart'>
+            <div className='cart-bar'>
+              <BsCart color='white' size={20} />
+              <div>
+                <p>$0.00</p>
+              </div>
             </div>
-          </div>
+          </Link>
 
         </nav>
 
@@ -105,71 +107,71 @@ function Header() {
 
 
 
-      {showcart && <div className='outer-address' onClick={()=>setshowcart(false)}>
-      <div className='address-cart'>
-        <div className='about-shipping'>
-          <div>
-            <img src='./images/truck.png' alt='Truck'></img>
-            <h5>Shipping</h5>
-          </div>
-          <div>
-            <img src='./images/car.png' alt='Truck'></img>
-            <h5>Pickup</h5>
-          </div>
-          <div>
-            <img src='./images/bag.png' alt='Truck'></img>
-            <h5>Delivery</h5>
-          </div>
-        </div>
-      
-
-        <div className='about-address'>
-          <div className='vehicles'>
-            <div><IoLocationOutline /></div>
+      {showcart && <div className='outer-address' onClick={() => setshowcart(false)}>
+        <div className='address-cart'>
+          <div className='about-shipping'>
             <div>
-              <h5>Add an address for shipping and delivery</h5>
-              <p>Sacramento, CA 95829</p>
+              <img src='./images/truck.png' alt='Truck'></img>
+              <h5>Shipping</h5>
+            </div>
+            <div>
+              <img src='./images/car.png' alt='Truck'></img>
+              <h5>Pickup</h5>
+            </div>
+            <div>
+              <img src='./images/bag.png' alt='Truck'></img>
+              <h5>Delivery</h5>
             </div>
           </div>
-          <div className='add-it'>Add address</div>
-        </div>
 
-        <div className='about-home'>
-          <div><IoHomeOutline /></div>
-          <div>
-            <h5>Sacramento Supercenter</h5>
-            <p>8915 GERBER ROAD, sacramento, CA 95829</p>
+
+          <div className='about-address'>
+            <div className='vehicles'>
+              <div><IoLocationOutline /></div>
+              <div>
+                <h5>Add an address for shipping and delivery</h5>
+                <p>Sacramento, CA 95829</p>
+              </div>
+            </div>
+            <div className='add-it'>Add address</div>
           </div>
-          <div><MdArrowForwardIos /></div>
+
+          <div className='about-home'>
+            <div><IoHomeOutline /></div>
+            <div>
+              <h5>Sacramento Supercenter</h5>
+              <p>8915 GERBER ROAD, sacramento, CA 95829</p>
+            </div>
+            <div><MdArrowForwardIos /></div>
+          </div>
         </div>
-      </div>
       </div>}
 
-      {showitem && <div className='out-item' onClick={()=>setshowitem(false)}>
-      <div className='address-item'>
-        <div>
-          <ul>
-            <li><a href='#'><PiDownloadSimpleLight /> Reorder</a></li>
-            <li><a href='#'><GoHeart /> Lists</a></li>
-            <li><a href='#'><PiGiftLight /> Registries</a></li>
-          </ul>
+      {showitem && <div className='out-item' onClick={() => setshowitem(false)}>
+        <div className='address-item'>
+          <div>
+            <ul>
+              <li><a href='#'><PiDownloadSimpleLight /> Reorder</a></li>
+              <li><a href='#'><GoHeart /> Lists</a></li>
+              <li><a href='#'><PiGiftLight /> Registries</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
       </div>}
 
-      {showaccount && <div className='oute-account' onClick={()=>setshowaccount(false)}>
-      <div className='address-account'>
-        <div className='create-acc'><Link to='/Login'><h5>Sign in or create account</h5></Link></div>
-        <hr />
-        <div className='history'>
-          <div><CgNotes /></div>
-          <div>Purchase History</div>
+      {showaccount && <div className='oute-account' onClick={() => setshowaccount(false)}>
+        <div className='address-account'>
+          <div className='create-acc'><Link to='/Login'><h5>Sign in or create account</h5></Link></div>
+          <hr />
+          <div className='history'>
+            <div><CgNotes /></div>
+            <div>Purchase History</div>
+          </div>
+          <div className='site'>
+            <div><TbBrandWalmart /></div>
+            <div>Walmart+</div>
+          </div>
         </div>
-        <div className='site'>
-          <div><TbBrandWalmart /></div>
-          <div>Walmart+</div>
-        </div>
-      </div>
       </div>}
 
 
