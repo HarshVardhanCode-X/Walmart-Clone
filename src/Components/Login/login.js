@@ -13,6 +13,7 @@ function Login() {
         try {
             const result = await signInWithPopup(auth, provider);
             setUser(result.user);
+            window.location.assign("/");
             console.log("result",result);
             
         } catch (error) {

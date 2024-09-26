@@ -16,11 +16,17 @@ import { CgNotes } from "react-icons/cg";
 import { IoChevronUp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import './Header.css'
+import { useAuth } from '../../AuthContext';
+import { signOut } from 'firebase/auth';
+import { auth, provider } from '../../firebaseConfig';
 
 function Header() {
   const [showcart, setshowcart] = useState(false);
   const [showitem, setshowitem] = useState(false);
   const [showaccount, setshowaccount] = useState(false);
+
+  const { currentUser } = useAuth();
+  console.log(currentUser);
 
   return (
     <React.Fragment>
@@ -51,13 +57,24 @@ function Header() {
             </div>
           </div>
 
+          {currentUser ?( <div className='sign-bar'>
+            <img src={currentUser?.photoURL} lazy="loading"/>
+            <div>
+              <p>{currentUser?.displayName}</p>
+              <h5 onClick={async()=>{
+                await signOut(auth,provider);
+                alert("Successfully logout");
+              }}>Logout</h5>
+            </div>
+          </div>):(
+
           <div className='sign-bar' onClick={() => setshowaccount(!showaccount)}>
             <LuUser2 color='white' size={17} />
             <div>
               <p>Sign In</p>
               <h5>Account</h5>
             </div>
-          </div>
+          </div>)}
 
           <Link to='/Cart'>
             <div className='cart-bar'>
